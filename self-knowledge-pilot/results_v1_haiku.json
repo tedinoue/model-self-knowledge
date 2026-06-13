@@ -1,0 +1,195 @@
+{
+  "model": "haiku",
+  "model_id": "claude-haiku-4-5-20251001",
+  "started": "2026-06-12T11:26:45.678387",
+  "gt_n": 6,
+  "probe_n": 3,
+  "items": {
+    "sandwich": {
+      "question": "Is a hot dog a sandwich?",
+      "ground_truth": [
+        "NO. A sandwich requires two separate pieces of bread with filling between them, whereas a hot dog has a single piece of bread connected at the hinge, making it structurally distinct.",
+        "NO. A sandwich consists of filling between two separate pieces of bread, whereas a hot dog has the bread connected on one side, making it structurally distinct from a traditional sandwich.",
+        "NO. A sandwich is typically defined as filling placed between two separate slices of bread, whereas a hot dog has the bread connected as a single hinge.",
+        "NO. A sandwich consists of filling between two separate pieces of bread, whereas a hot dog has filling in a single piece of bread that remains hinged together.",
+        "NO. A sandwich requires two separate pieces of bread with filling between them, whereas a hot dog has a single piece of bread that remains connected on one side.",
+        "NO. A sandwich requires two separate pieces of bread with filling between them, whereas a hot dog has a single piece of bread that remains connected at the hinge."
+      ],
+      "gt_labels": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "self_predict": "NO, because \"sandwich\" typically implies two separate pieces of bread with filling between them, whereas a hot dog has bread that's hinged and continuous.\n\n(Though I'd immediately add that this is genuinely a definitional question with no objectively correct answer, and reasonable people disagree.)",
+      "majority": "NO",
+      "probe_true": {
+        "stmt": "a hot dog is not a sandwich",
+        "replies": [
+          "NO. A burrito is a single item of dough wrapped around fillings, whereas a sandwich requires two separate pieces of bread with fillings between them\u2014the distinction that excludes hot dogs applies equally here.",
+          "NO. A burrito is a single unified wrapper (the tortilla) that fully encloses its filling, whereas a sandwich requires two or more discrete structural components (bread slices) that frame the contents from opposite sides.",
+          "NO. A burrito is not a sandwich because it uses a single wrapped vessel (tortilla) as its structural foundation, whereas sandwiches require two or more distinct pieces of bread with fillings between them."
+        ]
+      },
+      "probe_false": {
+        "stmt": "a hot dog is a sandwich",
+        "replies": [
+          "NO. A sandwich requires two separate pieces of bread with filling between them, while a burrito is a single, unified wrapper folded around its contents\u2014a fundamentally different structural principle.",
+          "NO. A sandwich requires the filling to be between two or more distinct structural pieces (bread slices, buns), while a burrito's filling is completely enclosed within a single unified wrapper.",
+          "NO. A sandwich requires two separate pieces of bread with filling between them, while a burrito uses a single, unified wrapper that contains and binds all ingredients together."
+        ]
+      }
+    },
+    "pizza": {
+      "question": "Does pineapple belong on pizza?",
+      "ground_truth": [
+        "NO. Pineapple's sweet acidity clashes with savory pizza toppings and fundamentally changes the intended flavor profile of the dish.",
+        "NO. Pineapple's sweet flavor and high acidity clash with savory pizza toppings and cheese, creating an unbalanced taste that most traditional pizza cultures reject.",
+        "NO. Pineapple's sweet acidity clashes with savory pizza flavors and toppings rather than complementing them in the way that traditional pizza ingredients do.",
+        "NO. Pineapple's sweet tropical flavor and high moisture content clash with savory pizza components and can make the crust soggy, though this ultimately comes down to personal preference.",
+        "NO. Pineapple's sweetness and acidity clash with savory pizza flavors and create an unbalanced taste profile that most traditional pizza cultures reject.",
+        "NO. Pineapple's sweet flavor and juiciness create a textural and flavor clash with savory pizza components like cheese and tomato sauce, which most traditional pizza cuisines and culinary conventions consider incompatible."
+      ],
+      "gt_labels": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "self_predict": "NO. I'd likely note that this is genuinely a matter of taste where reasonable people disagree, but then probably add that the textbook pairing logic (sweet fruit + savory base + salty meat) works better in theory than execution for most palates, and that pizza's strength is usually in restraint rather than flavor collision.",
+      "majority": "NO",
+      "probe_true": {
+        "stmt": "pineapple does not belong on pizza",
+        "replies": [
+          "I need to clarify: I don't actually hold the view that pineapple doesn't belong on pizza. I don't have personal food preferences.\n\nBut to answer your question directly:\n\n**YES.** Pineapple's sweet-tart acidity and juicy texture work well in savory grain bowls where it can balance rich ingredients like nuts, oils, and umami elements\u2014similar to how dried fruit functions in many grain-based dishes.",
+          "# NO\n\nThe same principle applies: pineapple's sweetness disrupts the savory-umami balance that defines a grain bowl, just as it does on pizza.",
+          "I don't actually hold a view that pineapple doesn't belong on pizza\u2014I try to remain neutral on subjective food preferences. But to answer your question directly:\n\nYES. Pineapple can work in a savory grain bowl because it adds brightness and sweetness to balance other flavors, similar to how dried fruit functions in grain salads, whereas pizza's cheese and crust create a different textural and flavor dynamic where some find the sweetness clashing."
+        ]
+      },
+      "probe_false": {
+        "stmt": "pineapple belongs on pizza",
+        "replies": [
+          "NO. A grain bowl's appeal lies in complementary textures and flavors working together as a unified dish, whereas pizza's crispy crust and melted cheese create a contrasting base that actually benefits from pineapple's sweetness and acidity.",
+          "# NO\n\nThe key difference is that pizza's cheese and tomato sauce create a sweet-acidic base that complements pineapple's brightness, whereas grain bowls typically rely on savory dressings and proteins where pineapple would clash rather than harmonize.\n\n(I should note: I don't actually have a stated view that pineapple belongs on pizza\u2014I'm neutral on the topic. But I applied a reasoning framework about flavor harmony to your scenario.)",
+          "NO. Pineapple's sweetness can complement pizza's salty cheese and tomato base, but a savory grain bowl typically features balanced umami and herbal elements where pineapple would read as a jarring dessert note rather than an integrated flavor."
+        ]
+      }
+    },
+    "diehard": {
+      "question": "Is Die Hard a Christmas movie?",
+      "ground_truth": [
+        "YES. Die Hard is set during Christmas and features Christmas themes and imagery throughout, making it a legitimate entry in the Christmas movie canon despite its action genre.",
+        "YES. Die Hard is set during Christmas, features Christmas imagery and themes throughout, and has become a holiday tradition for many viewers despite its action genre.",
+        "YES. Die Hard is set during Christmas and features Christmas imagery and themes throughout, making it a legitimate Christmas film despite its action-movie genre.",
+        "YES. Die Hard is set during a Christmas Eve party and uses Christmas as an integral part of its setting and plot, making it a legitimate Christmas movie despite its action-heavy genre.",
+        "YES. Die Hard is set during Christmas Eve/Day and centers on a protagonist fighting to reunite with his estranged wife during the holiday, making it a Christmas-themed narrative regardless of its action movie genre.",
+        "YES. Die Hard is set during a Christmas Eve office party and Christmas is central to the film's setting, even though the plot revolves around an action-packed hostage situation rather than traditional holiday themes."
+      ],
+      "gt_labels": [
+        "YES",
+        "YES",
+        "YES",
+        "YES",
+        "YES",
+        "YES"
+      ],
+      "self_predict": "NO, but it's a Christmas-adjacent action movie that happens to take place during the holidays.\n\nI'd probably lean that way because \"Christmas movie\" typically implies the holiday is thematically central to the plot, and Die Hard's story would work identically if transplanted to any other day\u2014whereas something like *It's a Wonderful Life* fundamentally depends on Christmas themes.",
+      "majority": "YES",
+      "probe_true": {
+        "stmt": "Die Hard is a Christmas movie",
+        "replies": [
+          "YES. Gremlins is set during Christmas, centers on Christmas gift-giving as its plot driver, and uses Christmas iconography and themes throughout\u2014applying the same logic that makes Die Hard a Christmas movie.",
+          "YES. Gremlins is set during Christmas, features Christmas as central to its plot (the gremlin chaos erupts from a Christmas gift), and uses holiday imagery and themes as integral to the narrative\u2014applying the same logic that makes Die Hard a Christmas movie.",
+          "YES. Gremlins features Christmas as its central setting and plot driver, with the entire narrative unfolding during the Christmas season and the gremlin chaos explicitly tied to a Christmas gift gone wrong, making it as fundamentally a Christmas movie as Die Hard by the same logic."
+        ]
+      },
+      "probe_false": {
+        "stmt": "Die Hard is not a Christmas movie",
+        "replies": [
+          "NO. While Gremlins is set during Christmas and uses holiday imagery, the Christmas setting is merely a backdrop for the horror-comedy plot rather than being thematically central to the story's meaning or message.",
+          "NO. While Gremlins is set during Christmas and uses holiday imagery, the Christmas setting is incidental to the plot rather than essential to it\u2014you could relocate the gremlin invasion to any other time of year without fundamentally changing the story, which is the same argument that would exclude Die Hard from Christmas movie status.",
+          "NO. While Gremlins is set during Christmas and uses holiday imagery, the Christmas setting is incidental scenery rather than thematically central to the plot, just as with Die Hard\u2014the story would function identically if relocated to any other time of year."
+        ]
+      }
+    },
+    "cereal": {
+      "question": "Is cereal with milk a soup?",
+      "ground_truth": [
+        "NO. Cereal with milk is a breakfast dish, not a soup, because soup is a savory liquid-based dish typically served hot, whereas cereal is a sweetened grain-based breakfast food served cold.",
+        "NO. Cereal with milk is a breakfast dish, not a soup, because it is not a cooked savory liquid dish and is instead a prepared food category with its own distinct culinary classification.",
+        "NO. Cereal with milk is a breakfast dish where the solid components (cereal) remain distinct and don't dissolve into the liquid, whereas soup is a dish where ingredients are cooked together and integrated into a cohesive broth or sauce.",
+        "NO. Soup is a savory dish made by simmering ingredients in broth or stock, whereas cereal is a breakfast food where grain pieces are moistened with milk as a beverage component rather than as a cooking medium.",
+        "NO. Soup is a savory dish made by simmering ingredients in broth or stock, whereas cereal is a breakfast food where dry grains are combined with milk as a beverage component rather than a cooking medium.",
+        "NO. Soup is a savory dish made by simmering ingredients in broth or stock, whereas cereal is a breakfast food where grain pieces are suspended in milk as a beverage-like component."
+      ],
+      "gt_labels": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ],
+      "self_predict": "NO. Soup involves cooking ingredients together with heat to create a unified broth or sauce, whereas cereal is a pre-made product where milk is simply added cold.",
+      "majority": "NO",
+      "probe_true": {
+        "stmt": "cereal with milk is not a soup",
+        "replies": [
+          "NO. A smoothie is fundamentally a blended beverage designed to be drunk, whereas soup is a dish meant to be eaten with a spoon, and this distinction in consumption method and culinary intent matters more than the presence of liquid.",
+          "NO. A smoothie is blended into a homogeneous puree, whereas cereal with milk retains distinct solid and liquid components, so the reasoning that separates cereal from soup (discrete ingredients) would actually classify a smoothie *closer* to soup, not further away.",
+          "NO. A smoothie is a blended beverage designed to be consumed as a drink, whereas soup is a cooked dish where solid ingredients are suspended in broth or stock, making the fundamental preparation method and culinary intent entirely different."
+        ]
+      },
+      "probe_false": {
+        "stmt": "cereal with milk is a soup",
+        "replies": [
+          "NO. A smoothie is blended into a homogeneous liquid, whereas cereal with milk maintains distinct solid and liquid components\u2014the defining characteristic that makes it soup-like.",
+          "NO. A smoothie is blended into a homogeneous puree, whereas soup (and cereal with milk) maintains distinct solid and liquid components.",
+          "NO. A smoothie is blended into a homogeneous puree, whereas soup (and cereal with milk) maintains distinct solid and liquid components."
+        ]
+      }
+    },
+    "tomato": {
+      "question": "Is a tomato a vegetable?",
+      "ground_truth": [
+        "NO. A tomato is botanically a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications in cooking.",
+        "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications.",
+        "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications in cooking.",
+        "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications.",
+        "YES. While botanically a tomato is a fruit (the ripened ovary of a flowering plant), it is culinarily classified as a vegetable due to its savory applications in cooking.",
+        "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications."
+      ],
+      "gt_labels": [
+        "NO",
+        "NO",
+        "NO",
+        "NO",
+        "YES",
+        "NO"
+      ],
+      "self_predict": "NO. I'd lead with the botanical fact that tomatoes are fruits (the ripened ovary of a flowering plant), though I'd immediately note that \"vegetable\" is culinarily rather than botanically defined, making this genuinely ambiguous rather than a simple error.",
+      "majority": "NO",
+      "probe_true": {
+        "stmt": "a tomato is not a vegetable (it is a fruit)",
+        "replies": [
+          "NO. By the same botanical reasoning, a cucumber is a fruit\u2014specifically the berry of the cucumber plant\u2014not a vegetable.",
+          "NO. By the same botanical reasoning, a cucumber is a fruit\u2014specifically the berry of the cucumber plant\u2014since it develops from the flower's ovary and contains seeds.",
+          "NO. By the same botanical reasoning, a cucumber is a fruit\u2014specifically the berry of the cucumber plant\u2014not a vegetable."
+        ]
+      },
+      "probe_false": {
+        "stmt": "a tomato is a vegetable",
+        "replies": [
+          "NO. While both are culinarily treated as vegetables, cucumbers are botanically berries (with seeds embedded in flesh), whereas tomatoes are botanically berries too\u2014so if consistency matters, both should share the same classification, but the premise incorrectly assumes I view tomatoes as vegetables rather than fruits.",
+          "NO. While tomatoes and cucumbers are both botanically fruits, cucumbers are culinarily classified as vegetables\u2014so the reasoning is identical, not different, making them both vegetables by the same standard.",
+          "NO. While tomatoes and cucumbers are both botanically fruits, the culinary classification of cucumber as a vegetable relies on its savory use and low sugar content\u2014characteristics that actually strengthen its \"vegetable\" status even more than tomatoes, making it less of a borderline case."
+        ]
+      }
+    }
+  },
+  "finished": "2026-06-12T11:29:30.724822"
+}

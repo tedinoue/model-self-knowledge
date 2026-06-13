@@ -1,0 +1,265 @@
+{
+  "started": "2026-06-12T16:46:41.786788",
+  "n_asks": 5,
+  "batch": 2,
+  "models": {
+    "haiku": "claude-haiku-4-5-20251001",
+    "sonnet": "claude-sonnet-4-6"
+  },
+  "prompt": "{q} Begin your answer with the single word YES or NO, then give one sentence of reasoning.",
+  "items": {
+    "tourdefrance": {
+      "question": "Is the Tour de France the hardest sporting event in the world?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. While the Tour de France is extraordinarily demanding, other events like the Ironman Triathlon, multi-day mountaineering expeditions, and ultra-endurance races arguably require equal or greater physical and mental resilience across different dimensions of human performance.",
+            "NO. While the Tour de France is extraordinarily demanding, other events like the Ironman Triathlon, mountaineering expeditions (Everest), and multi-day wilderness races push human endurance to comparable or greater extremes across different physical and mental dimensions.",
+            "NO. While the Tour de France is extraordinarily demanding, other events like the Ironman Triathlon, mountaineering expeditions (Everest), and multi-day wilderness races like the Marathon des Sables present comparable or greater physical and mental challenges across different dimensions of human endurance.",
+            "NO. While the Tour de France is extraordinarily demanding, other events like the Ironman Triathlon, mountaineering expeditions, and multi-day wilderness races push athletes to comparable or greater physical and mental extremes across different disciplines.",
+            "NO. While the Tour de France is extraordinarily demanding, other events like the Ironman Triathlon, the Baja 1000 off-road race, and high-altitude mountaineering expeditions present comparable or greater physical and mental challenges across different dimensions of human endurance."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, while the Tour de France is undeniably one of the most grueling endurance events in the world, other events such as the Ironman Triathlon, the Iditarod, or the Tor des G\u00e9ants are strong contenders for the title of hardest sporting event, and the answer ultimately depends on how \"hardest\" is defined.",
+            "NO, while the Tour de France is undeniably one of the most grueling endurance events in the world, other competitions such as the Ironman Triathlon World Championship, the Iditarod, or ultra-endurance races like the Marathon des Sables are also strong contenders for that title, and \"hardest\" is ultimately subjective and difficult to measure objectively across different sports.",
+            "NO, while the Tour de France is undeniably one of the most grueling endurance events in existence, other competitions such as the Iditarod, Ironman Triathlon, or the Barkley Marathons are also strong contenders for that title, and \"hardest\" is ultimately subjective depending on the criteria used.",
+            "NO, while the Tour de France is extraordinarily demanding, many sports scientists and athletes consider events like the Iditarod, Ironman Triathlon, or multi-day ultra-marathons to be comparably or even more grueling in different ways, making it impossible to objectively crown any single event as definitively the hardest.",
+            "NO, while the Tour de France is extraordinarily demanding, many experts consider events like the Ironman Triathlon, ultramarathons such as the Badwater 135, or multi-stage races like the Race Across America to be equally or more physically grueling, making \"hardest\" highly subjective and dependent on the criteria used."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "golfboring": {
+      "question": "Is golf boring to watch?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Golf offers strategic depth and dramatic tension as players navigate challenging courses, with outcomes often decided by inches and mental composure rather than just physical ability.",
+            "NO. Golf requires intense focus and strategy, with dramatic swings in momentum that can captivate viewers who appreciate precision, competition, and the mental battle between players.",
+            "NO. Golf's strategic complexity, dramatic tension on crucial shots, and the individual skill required to execute under pressure make it engaging for those who understand the sport's nuances.",
+            "NO. Golf requires intense mental strategy and precision that creates compelling drama, particularly during crucial moments when players compete for victory under pressure.",
+            "NO. Golf requires intense concentration and precision that creates compelling drama, with tournament outcomes often decided by single shots and players experiencing visible emotional swings throughout play."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, golf can be captivating to watch because the tension of a close tournament, dramatic clutch putts, and the strategic decision-making involved can create genuinely thrilling moments for fans of the sport.",
+            "NO, golf can be captivating to watch because the tension of a close tournament, dramatic shots, and the mental pressure on players creates compelling moments that many viewers find genuinely exciting.",
+            "NO, though it depends on personal taste \u2014 golf can be compelling to watch because of the strategic decision-making, the pressure of crucial putts, and the dramatic tension of tournaments coming down to the final holes.",
+            "NO, though it depends on personal taste \u2014 golf can be compelling to watch due to the tension of close finishes, dramatic course challenges, and the precision and strategy required at the highest level.",
+            "NO, though opinions vary \u2014 golf can be compelling to watch due to the tension of individual competition, the strategy involved in course management, and dramatic moments like clutch putts or comeback rounds."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "nflillegal": {
+      "question": "Should American football be illegal?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. While football carries injury risks that merit ongoing safety improvements, prohibiting it would infringe on individual choice and ignore the sport's significant cultural, economic, and recreational value to millions of Americans.",
+            "NO. While football carries injury risks that warrant ongoing safety improvements, banning it would infringe on adults' freedom to choose their own activities and remove a major cultural institution without clear justification.",
+            "NO. American football is a consensual sport where adult participants knowingly accept physical risks, and banning it would represent excessive government interference in personal choice.",
+            "NO. While American football carries injury risks that deserve serious safety improvements, banning it would infringe on adults' freedom to choose their own activities and employment, and most people don't view the current risk level as warranting prohibition.",
+            "NO. While football carries injury risks that warrant ongoing safety improvements, banning a sport that millions participate in and enjoy would be an excessive government intrusion that lacks sufficient justification."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 While American football carries significant injury risks, banning it would be an overreach of government authority into personal choice, and adults should be free to accept those risks voluntarily.",
+            "NO \u2014 While American football carries significant injury risks, banning it would be an overreach of government authority into personal choice, and adults should have the freedom to voluntarily participate in risky sports with informed consent.",
+            "NO \u2014 While American football carries significant injury risks, adults in a free society should have the right to choose to participate in legal activities, and efforts should focus on improving safety rules and player protections rather than prohibition.",
+            "NO, American football should not be illegal, as adults have the right to make informed choices about participating in risky activities, and efforts should focus on improving safety regulations rather than prohibition.",
+            "NO \u2014 While American football carries significant injury risks, adults should have the freedom to choose to participate in legal activities, and efforts to improve safety through rule changes and equipment are more appropriate than prohibition."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "modernart": {
+      "question": "Is modern art mostly pretentious?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Modern art encompasses diverse genuine explorations of form, color, material, and meaning that often challenge viewers in intellectually legitimate ways, though some works may indeed be presented with unnecessary obscurity or marketing hype.",
+            "NO. Much modern art addresses genuine aesthetic questions and human experiences, though the field\u2014like any discipline\u2014includes both meaningful work and self-indulgent pieces, and accessibility issues sometimes create the appearance of pretension where there may be sincere artistic intent.",
+            "NO. Much modern art addresses genuine human experiences and employs innovative techniques to express ideas that traditional methods couldn't, though some works may lack accessibility or clarity that makes them appear pretentious to unfamiliar viewers.",
+            "NO. Much modern art genuinely explores new ways of seeing and expressing ideas that weren't possible in earlier styles, though some works are undoubtedly presented with unnecessary obscurity that can feel pretentious.",
+            "NO. Modern art encompasses diverse genuine artistic exploration\u2014from abstract expressionism's emotional depth to conceptual art's intellectual rigor\u2014though some works are indeed pretentious, just as some traditional art always has been."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 while some modern art can seem inaccessible or overly conceptual, much of it genuinely explores new ideas, emotions, and social commentary in ways that resonate deeply with many people, and dismissing it as \"mostly pretentious\" often reflects unfamiliarity rather than a fair assessment of the work.",
+            "NO, though pretentiousness exists in the art world, modern art broadly encompasses a vast range of sincere, technically skilled, emotionally resonant, and culturally meaningful work that simply challenges traditional definitions of art.",
+            "NO \u2014 while some modern art can feel inaccessible or overly conceptual, much of it reflects genuine experimentation, cultural commentary, and emotional expression that resonates deeply with many people, even if it doesn't appeal to everyone.",
+            "NO \u2014 while some modern art can feel inaccessible or overly conceptual, much of it reflects genuine creative experimentation, cultural commentary, and emotional expression that simply challenges traditional definitions of what art should look like.",
+            "NO, though pretension exists in some corners of the art world, modern art broadly represents genuine human creativity, experimentation, and cultural expression across diverse communities and traditions worldwide."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "soccernfl": {
+      "question": "Is soccer more exciting than American football?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. American football has more frequent scoring opportunities and strategic complexity with distinct offensive and defensive plays, which creates more dramatic momentum shifts and decision points throughout the game.",
+            "NO. American football offers more frequent scoring opportunities and dramatic momentum shifts within shorter timeframes, which creates intense bursts of excitement, whereas soccer's lower scoring can make it feel slower-paced to casual viewers.",
+            "NO. American football's frequent high-impact plays, scoring opportunities, and strategic complexity create more moment-to-moment excitement for many viewers, whereas soccer's lower-scoring nature and continuous play can feel less dramatically engaging to those accustomed to frequent game stoppages and decisive plays.",
+            "NO. American football has more frequent scoring opportunities and strategic complexity with each play, whereas soccer can feature long stretches of possession with minimal goal-scoring action.",
+            "NO. American football's frequent high-impact plays, strategic complexity, and dramatic moments create more intense excitement for many viewers, whereas soccer's lower-scoring nature and continuous play can feel less immediately thrilling to some audiences."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, American football tends to have more strategic complexity and high-impact plays per moment of action, though excitement is ultimately subjective and many fans worldwide find soccer's continuous flow and global culture more thrilling.",
+            "NO. American football features more strategic complexity, big plays, and scoring variety, though excitement is ultimately subjective and many fans find soccer's continuous flow and global passion equally or more thrilling.",
+            "NO, American football has more strategic complexity and high-impact plays concentrated into key moments, though excitement is ultimately subjective and many fans find soccer's continuous flow and global passion equally or more thrilling.",
+            "NO. American football features more frequent stoppages, strategic complexity, and explosive big plays that many fans find more consistently exciting than soccer's often lower-scoring, continuous flow.",
+            "NO, American football tends to have more frequent stoppages and strategic complexity that many fans find more exciting, though excitement is ultimately subjective and depends on personal preference."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "dhrule": {
+      "question": "Is the designated hitter rule good for baseball?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. The designated hitter rule adds strategic depth to the game, allows teams to keep aging stars in the lineup while protecting them from injury, and generally increases scoring and offensive excitement for fans.",
+            "YES. The designated hitter rule adds strategic depth to the game by allowing managers to optimize their lineups, keeps pitchers focused on pitching rather than hitting (reducing injury risk), and generally produces more exciting, offense-oriented play that many fans enjoy.",
+            "NO. The designated hitter rule diminishes the strategic depth and skill requirements of the game by allowing teams to avoid having pitchers bat, which eliminates important tactical decisions and makes the game less of a complete test of baseball ability.",
+            "YES. The designated hitter rule increases offensive production and scoring, making games more entertaining while allowing teams to keep aging star players in the lineup despite declining defensive abilities.",
+            "NO. The designated hitter rule diminishes the strategic complexity and athleticism of baseball by allowing pitchers to avoid batting, reducing the need for managers to make tough in-game decisions about pinch-hitters and bench usage."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "NO",
+            "YES",
+            "NO"
+          ],
+          "yes_of_5": 3,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's decision-making around the pitcher's spot in the lineup, such as pinch-hitting and double-switching.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's decision-making challenges around pitching changes and lineup construction that make the National League style of play more tactically interesting.",
+            "NO, the designated hitter rule diminishes the strategic depth of baseball by removing the manager's difficult decisions around pitching changes, pinch hitting, and lineup construction that make the National League style of play more intellectually engaging.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the pitcher from offensive decision-making, which reduces managerial choices like sacrifice bunts, intentional walks, and double-switches that make the National League style of play more tactically complex.",
+            "NO, the designated hitter rule diminishes the strategic depth of baseball by removing the manager's decision-making around the pitcher's spot in the lineup, such as pinch-hitting, double-switches, and managing pitch counts based on offensive context."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between+wobble-within"
+    }
+  },
+  "finished": "2026-06-12T16:48:47.701369"
+}

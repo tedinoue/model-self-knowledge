@@ -1,0 +1,385 @@
+{
+  "started": "2026-06-12T16:52:42.188920",
+  "n_asks": 10,
+  "batch": 3,
+  "models": {
+    "haiku": "claude-haiku-4-5-20251001",
+    "sonnet": "claude-sonnet-4-6"
+  },
+  "prompt": "{q} Begin your answer with the single word YES or NO, then give one sentence of reasoning.",
+  "items": {
+    "sandwich": {
+      "question": "Is a hot dog a sandwich?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A sandwich consists of filling between two separate pieces of bread, whereas a hot dog has a single piece of bread folded or hinged together, making it structurally distinct from a traditional sandwich.",
+            "YES. A sandwich is any food item placed between two pieces of bread or within a single bread structure, and a hot dog consists of a filling (the sausage) between two connected pieces of bread (the bun).",
+            "YES. A sandwich is any filling between two pieces of bread or a single bread structure, and a hot dog consists of a filling (the sausage) between two connected pieces of bread (the bun).",
+            "NO. A sandwich traditionally consists of filling between two separate pieces of bread, whereas a hot dog has the bread connected at a hinge, making it structurally distinct.",
+            "NO. A sandwich is typically defined as filling between two separate slices of bread, while a hot dog has filling in a single piece of bread that remains hinged together.",
+            "NO. A sandwich consists of filling between two separate pieces of bread, while a hot dog has the bread connected at a hinge, making it structurally distinct.",
+            "NO. A sandwich is defined as filling between two separate slices of bread, whereas a hot dog has filling in a single piece of bread that remains connected at the hinge.",
+            "NO. A sandwich consists of filling between two separate pieces of bread, whereas a hot dog has the bread connected along one edge, making it a single hinged structure rather than two distinct bread components.",
+            "NO. A sandwich requires two separate pieces of bread with filling between them, whereas a hot dog has a single hinged piece of bread that remains connected.",
+            "NO. A sandwich is defined as filling between two separate pieces of bread, whereas a hot dog has a single piece of bread folded or connected at one end, making it structurally distinct."
+          ],
+          "labels": [
+            "NO",
+            "YES",
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 2,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich, its unique cultural identity, the continuity of its hinged bun, and widespread convention treat it as its own distinct food category.",
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich (filling between bread), its unique bun format, cultural identity, and the fact that it is widely recognized as its own distinct food category set it apart from what most people conventionally define as a sandwich.",
+            "NO. While a hot dog shares structural similarities with a sandwich (filling between bread), it is culturally and culinarily recognized as its own distinct food category, and its hinged bun differentiates it from a traditional sandwich construction.",
+            "NO. While a hot dog shares structural similarities with a sandwich (filling between bread), it is generally considered its own distinct food category, and even the NHLBI and culinary traditions treat it separately \u2014 a position famously supported by the National Hot Dog and Sausage Council.",
+            "NO \u2014 while a hot dog is served in a bread roll, it is its own distinct culinary category, and the bread is typically a single connected piece rather than two separate slices enclosing a filling.",
+            "NO. While a hot dog shares structural similarities with a sandwich (filling between bread), its unique cylindrical bun, cultural identity, and the fact that the bun is typically hinged rather than separate pieces set it apart as its own distinct food category.",
+            "NO \u2014 while a hot dog is served in a bread roll, it is its own distinct food category, and by most culinary and cultural definitions, a sandwich requires fillings placed *between* two separate, distinct pieces of bread.",
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich (filling between bread), it is culturally and culinarily recognized as its own distinct food category, and most people, including the National Hot Dog and Sausage Council, reject the classification.",
+            "NO \u2014 while a hot dog is served in a bread roll, the traditional definition of a sandwich requires two separate pieces of bread, and the hinged, single-bun structure of a hot dog makes it a distinct food category of its own.",
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich, it is generally considered its own distinct food category, as its bun is typically hinged and not fully separated, and cultural convention treats it as a unique item."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "strawberry": {
+      "question": "Is a strawberry a berry?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A strawberry is technically not a berry because it develops from a flower's receptacle rather than from the ovary, which is the defining characteristic of true berries.",
+            "NO. A strawberry is not botanically a berry because its seeds are on the outside of the fruit rather than enclosed within it; it's technically an accessory fruit called an aggregate accessory fruit.",
+            "NO. Strawberries are not botanically true berries because their seeds develop on the outside of the fruit rather than inside, making them accessory fruits instead.",
+            "NO. A strawberry is not a true berry because its seeds are on the outside of the fruit rather than inside, making it botanically an accessory fruit, whereas true berries like blueberries develop from a flower's ovary with seeds enclosed within.",
+            "NO. A strawberry is not a true berry botanically; it's an accessory fruit where the red flesh develops from the flower's receptacle rather than from the ovary, and the actual seeds are the tiny specks on its surface.",
+            "NO. A strawberry is not a true berry in botanical terms because its flesh develops from the receptacle (the base of the flower) rather than from the ovary, making it an accessory fruit instead.",
+            "NO. A strawberry is not a true berry because its seeds are on the outside of the fruit rather than enclosed within it; botanically, it's an aggregate accessory fruit.",
+            "NO. A strawberry is not a true berry because its seeds are on the outside of the fruit rather than enclosed within it, making it botanically an accessory fruit.",
+            "NO. A strawberry is not a true berry in botanical terms because its flesh develops from the receptacle of the flower rather than from the ovary, making it an accessory fruit instead.",
+            "NO. A strawberry is technically not a true berry because it develops from a flower's receptacle rather than from the ovary, making it an accessory fruit instead."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. Botanically, a strawberry is not a true berry but rather an \"accessory fruit,\" as the fleshy part develops from the receptacle rather than the ovary, while true berries (like bananas or grapes) develop entirely from the flower's ovary.",
+            "NO \u2014 despite its name, a strawberry is botanically an \"accessory fruit\" (false berry), as the fleshy part develops from the receptacle rather than the ovary, whereas true berries (like bananas or grapes) develop entirely from a single flower's ovary.",
+            "NO. Botanically, a strawberry is not a true berry but rather an \"accessory fruit\" or \"false fruit,\" as the fleshy part develops from the receptacle rather than the ovary, while true berries (like bananas or grapes) develop entirely from a single flower's ovary.",
+            "NO. Botanically, a strawberry is an accessory fruit (false fruit) because the fleshy part develops from the receptacle rather than the ovary, whereas true berries, like bananas or grapes, develop entirely from the flower's ovary.",
+            "NO \u2014 Despite its name, a strawberry is botanically an \"accessory fruit\" or \"false fruit,\" as it develops from the receptacle of the flower rather than the ovary, whereas true botanical berries (like bananas or grapes) develop entirely from a single flower's ovary.",
+            "NO \u2014 Despite its name, a strawberry is botanically an \"accessory fruit\" (the fleshy part develops from the receptacle rather than the ovary), whereas true berries, like blueberries or grapes, develop entirely from the flower's ovary.",
+            "NO. Despite its name, a strawberry is botanically an \"accessory fruit\" or \"false fruit,\" as its fleshy part develops from the receptacle rather than the ovary, whereas true berries (like bananas or grapes) develop entirely from a single ovary.",
+            "NO \u2014 Despite its name, a strawberry is botanically an \"accessory fruit\" (or false fruit), as the fleshy part develops from the receptacle rather than the ovary, whereas true berries, like blueberries or grapes, develop entirely from a single ovary.",
+            "NO. Botanically, a strawberry is not a true berry but rather an \"accessory fruit\" or \"false fruit,\" as the fleshy part develops from the receptacle rather than the ovary, while true berries (like bananas or grapes) develop from a single flower's ovary.",
+            "NO. Despite its name, a strawberry is botanically an \"accessory fruit\" (or false berry), as the fleshy part develops from the receptacle rather than the ovary, whereas true berries like bananas and grapes develop entirely from the flower's ovary."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "oxford": {
+      "question": "Is the Oxford comma necessary?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, which is particularly important in complex sentences where misreading could occur.",
+            "YES. The Oxford comma prevents ambiguity in lists, particularly when items contain conjunctions or modifiers that could otherwise create confusion about which elements are being grouped together.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, as demonstrated in phrases like \"I invited my parents, my sister, and my best friend\" where its absence could create confusion about relationships or groupings.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, particularly in sentences where meaning could otherwise be unclear.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, which is particularly important in complex sentences where meaning could otherwise be unclear.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, such as in \"I invited my parents, the president, and the pope\" versus \"I invited my parents, the president and the pope\" (which could suggest the parents are the president and pope).",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, as demonstrated by sentences like \"I invited my parents, Oprah, and Madonna\" versus \"I invited my parents, Oprah and Madonna.\"",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, which is particularly important in complex sentences where meaning could otherwise be unclear.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, such as in \"I invited my parents, the Queen, and the Pope\" versus \"I invited my parents, the Queen and the Pope\" (which could suggest the Queen and Pope are your parents).",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, which is particularly important in legal documents, technical writing, and complex sentences where misreading could occur."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_count": 10,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES, it prevents ambiguity in lists by clearly separating the final two items, as illustrated by the famous example \"We invited the strippers, JFK and Stalin\" versus \"We invited the strippers, JFK, and Stalin.\"",
+            "YES \u2014 While not always mandatory, the Oxford comma prevents ambiguous sentences like \"I love my parents, Lady Gaga and Humpty Dumpty,\" which without the comma implies your parents *are* Lady Gaga and Humpty Dumpty.",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where the final list items might otherwise be misread as a single combined element.",
+            "NO, it is not strictly necessary, but it is often recommended to prevent ambiguity in sentences where the final list items could otherwise be misread as a single unit.",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where the final list items might otherwise be misread as a single combined element.",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where the final list items might otherwise be misread as a single unit.",
+            "YES, the Oxford comma eliminates ambiguity in lists by clearly separating the final two items, preventing misreadings such as the famous example \"I'd like to thank my parents, Ayn Rand and God.\"",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where list items might otherwise be misread as paired or connected concepts.",
+            "NO, it is not strictly necessary, but it is often recommended to prevent ambiguity in sentences where the final list items could otherwise be misread as a single combined unit.",
+            "YES \u2014 While not always strictly required, the Oxford comma prevents genuine ambiguity in sentences where the final list items could otherwise be misread as a single combined element, as in the famous example of dedicating a book \"to my parents, Ayn Rand and God.\""
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "YES",
+            "NO",
+            "NO",
+            "YES"
+          ],
+          "yes_count": 4,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between+wobble-within"
+    },
+    "chili": {
+      "question": "Is chili a soup?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Chili is typically classified as a stew rather than a soup because it has a much thicker consistency with more solid ingredients and less broth.",
+            "YES. Chili is traditionally classified as a soup because it is a broth-based dish with meat, beans, and vegetables simmered together in liquid.",
+            "YES. Chili is a soup because it consists of a liquid broth base with solid ingredients (meat, beans, peppers) cooked together, which fits the standard definition of soup.",
+            "NO. Chili is typically classified as a stew rather than a soup because it contains a much higher proportion of solid ingredients (meat and beans) to liquid, resulting in a thicker consistency than soup.",
+            "YES. Chili is a soup because it consists of a liquid broth base with suspended solid ingredients like beans and meat, which fits the fundamental definition of soup.",
+            "NO. Chili is typically classified as a stew rather than a soup because it contains a much higher proportion of solid ingredients (beans, meat, peppers) to liquid, resulting in a thicker, more substantial consistency than soup.",
+            "YES. Chili is a soup because it consists of a liquid broth base combined with solid ingredients like beans and meat, which meets the fundamental definition of soup.",
+            "NO. Chili is typically classified as a stew rather than a soup because it has a much thicker consistency with a higher ratio of solid ingredients (beans, meat) to liquid.",
+            "YES. Chili is a soup because it is a savory liquid dish made of meat and beans in a broth-like base, which fits the fundamental definition of soup as a liquid-based food.",
+            "YES. Chili is a soup because it consists of a savory liquid base with solid ingredients (meat, beans, peppers) cooked together, which fits the basic definition of soup as a liquid dish."
+          ],
+          "labels": [
+            "NO",
+            "YES",
+            "YES",
+            "NO",
+            "YES",
+            "NO",
+            "YES",
+            "NO",
+            "YES",
+            "YES"
+          ],
+          "yes_count": 6,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES. Chili is technically a type of soup, as it is a liquid-based dish made by simmering ingredients like meat, beans, and vegetables in a seasoned broth, fitting the broad culinary definition of soup\u2014though it is often regarded culturally as its own distinct category.",
+            "NO. While chili shares some characteristics with soup, it is generally classified as its own distinct dish due to its thick consistency, hearty ingredients, and cultural identity as a stew-like preparation rather than a broth-based soup.",
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct category of dish due to its thick consistency, hearty ingredients, and cultural identity as a stew-like food rather than a broth-based soup.",
+            "NO. While chili shares some characteristics with soup, it is generally considered a distinct dish due to its thick, hearty consistency and is typically classified as a stew or its own separate category.",
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct category of dish, characterized by its thick, hearty consistency and specific ingredients like chili peppers, meat, and beans, which set it apart from traditional soups.",
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct dish due to its thick consistency, hearty ingredients, and cultural identity as a stew-like dish rather than a broth-based soup.",
+            "NO. While chili shares some characteristics with soup, it is generally considered a distinct dish due to its thick consistency, hearty ingredients, and cultural identity as its own food category.",
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct category of dish, characterized by its thick consistency, use of chili peppers, and hearty ingredients like meat and beans that set it apart from traditional soups.",
+            "NO. While chili shares some characteristics with soup, it is generally considered a distinct dish due to its thicker consistency, heartier ingredients, and its own culinary tradition that sets it apart from soups.",
+            "NO \u2014 while chili shares some characteristics with soup, it is generally considered a distinct dish due to its thick, hearty consistency and is traditionally classified as its own category of stew-like food."
+          ],
+          "labels": [
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 1,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between+wobble-within"
+    },
+    "xmasmusic": {
+      "question": "Is it acceptable to play Christmas music before Thanksgiving?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Playing Christmas music before Thanksgiving can feel premature to many people and diminishes the distinct character of the Thanksgiving holiday by rushing into the Christmas season.",
+            "NO. Thanksgiving deserves its own dedicated time to be celebrated without being overshadowed by Christmas preparations, and jumping ahead disrupts the natural progression of the holiday season.",
+            "NO. Thanksgiving deserves its own cultural moment in November before Christmas consumes the entire holiday season starting in October or earlier.",
+            "YES. Playing Christmas music before Thanksgiving is a matter of personal preference, and many people enjoy the festive atmosphere it brings during the holiday season without it conflicting with Thanksgiving celebrations.",
+            "NO. Playing Christmas music before Thanksgiving can feel premature and diminish the distinctness of each holiday, as many people prefer to celebrate Thanksgiving fully before shifting focus to the Christmas season.",
+            "NO. Thanksgiving deserves its own cultural moment and playing Christmas music beforehand diminishes the distinct holiday and can feel commercially rushed to many people.",
+            "YES. Music preferences are personal, and there's no rule preventing anyone from enjoying Christmas music whenever they choose, regardless of the calendar date.",
+            "YES. Many people enjoy Christmas music year-round, and there's no official rule preventing it\u2014ultimately, personal preference and context (like retail environments) determine what's appropriate.",
+            "NO. Playing Christmas music before Thanksgiving can feel premature to those who want to fully enjoy and celebrate Thanksgiving first, and it risks overshadowing that holiday with earlier festive enthusiasm.",
+            "NO. Playing Christmas music before Thanksgiving can feel premature to those who want to fully enjoy and celebrate Thanksgiving first, and it risks commercializing the holiday season too early."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "YES",
+            "NO",
+            "NO",
+            "YES",
+            "YES",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 3,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, many people find it disrespectful to Thanksgiving and overwhelming to hear Christmas music for such an extended period, though ultimately it comes down to personal preference.",
+            "NO, many people consider it disrespectful to Thanksgiving and overly premature, as it can contribute to \"holiday creep\" that diminishes the significance of each celebration in its proper time.",
+            "NO, many people find it disrespectful to Thanksgiving and overwhelming to hear Christmas music for such an extended period, though ultimately it comes down to personal preference.",
+            "NO, many people consider it disrespectful to Thanksgiving to skip over the holiday, and starting Christmas music too early can lead to festive fatigue before December even arrives.",
+            "NO, many people consider it premature and disrespectful to Thanksgiving, as playing Christmas music too early can feel like skipping over one holiday entirely and contributing to the over-commercialization of the season.",
+            "NO, many people consider it disrespectful to Thanksgiving as a holiday to skip over it entirely, and playing Christmas music too early contributes to holiday fatigue that can diminish the magic of the season.",
+            "NO, many people consider it premature and disrespectful to Thanksgiving, as playing Christmas music too early can feel like skipping over one holiday entirely and contributing to the over-commercialization of the season.",
+            "NO, many people consider it disrespectful to Thanksgiving as a holiday, and starting Christmas music too early can lead to \"holiday fatigue\" before December even begins.",
+            "NO, many people consider it disrespectful to Thanksgiving and overly premature, as it can lead to \"holiday fatigue\" by stretching the Christmas season too thin.",
+            "NO, many people feel it is disrespectful to skip over Thanksgiving and diminishes the specialness of the Christmas season by starting it too early."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "dhrule": {
+      "question": "Is the designated hitter rule good for baseball?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. The designated hitter rule diminishes the strategic complexity and athleticism required of baseball by allowing teams to avoid fielding complete players, reducing the need for managers to make difficult tactical decisions about pitcher substitutions and lineup construction.",
+            "NO. The designated hitter rule diminishes the strategic complexity and athleticism of baseball by allowing pitchers to avoid batting, reducing the need for managers to make crucial decisions about pinch-hitters and double switches that have long defined the game's tactical depth.",
+            "NO. The designated hitter rule diminishes the strategic complexity of baseball by eliminating the need for managers to make meaningful decisions about pitcher substitutions and removes an additional layer of competition by allowing teams to avoid having their pitchers bat.",
+            "YES. The designated hitter rule increases offensive production and pace of play while allowing players to specialize, making games more entertaining for most fans.",
+            "YES. The designated hitter rule adds strategic depth to the game by allowing managers to make different lineup decisions and keeps pitchers\u2014who are typically poor hitters\u2014from batting, which speeds up play and reduces injury risk.",
+            "NO. The designated hitter rule diminishes the strategic complexity and athletic versatility that made baseball compelling for generations, as it removes the need for pitchers to develop batting skills and reduces managerial decision-making about when to pinch-hit or remove a pitcher.",
+            "NO. The designated hitter rule diminishes the strategic complexity and athleticism of baseball by allowing teams to avoid defensive requirements for their best hitters, making the game less challenging and altering the traditional balance between offense and defense.",
+            "YES. The designated hitter rule increases offensive production and scoring, which makes games more entertaining for most fans while also reducing injury risk to pitchers.",
+            "NO. The designated hitter rule diminishes the strategic complexity and athleticism of baseball by allowing teams to avoid having their pitchers bat, which removes important tactical decisions about pinch-hitting and reduces the need for well-rounded players.",
+            "YES. The designated hitter rule increases offensive production and scoring, making games more entertaining for casual fans while allowing teams to keep aging players productive in the lineup."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "YES",
+            "YES",
+            "NO",
+            "NO",
+            "YES",
+            "NO",
+            "YES"
+          ],
+          "yes_count": 4,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, the designated hitter rule undermines the strategic complexity of baseball by removing the manager's difficult decisions around pitching changes and lineup construction that make the National League style of play more tactically rich.",
+            "NO, the designated hitter rule diminishes the strategic depth of baseball by removing the manager's decisions around pitching changes, pinch hitting, and lineup construction that make the National League style of play more tactically nuanced.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's difficult decisions around pitching changes and lineup construction that make the National League style of play more tactically interesting.",
+            "NO, the designated hitter rule diminishes the strategic depth of baseball by removing the manager's decision-making around the pitcher's spot in the lineup, such as pinch-hitting, double switches, and pitch count management tied to offensive situations.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's difficult decisions around pitching changes and lineup construction that make the National League style of play intellectually engaging.",
+            "NO, the designated hitter rule diminishes the strategic complexity of baseball by removing the manager's decisions around pitching changes, pinch hitters, and sacrifice situations that make the National League style of play more tactically rich.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's difficult decisions around pitching changes and lineup construction that make the National League style of play intellectually compelling.",
+            "NO, the designated hitter rule reduces strategic complexity by removing the pitcher from batting decisions, which diminishes the tactical depth and chess-like nature of the game that makes baseball unique.",
+            "NO, the designated hitter rule undermines the strategic depth of baseball by removing the manager's decisions around pitching changes and lineup construction that make the National League style of play intellectually rewarding.",
+            "NO, the designated hitter rule reduces strategic complexity by removing the pitcher from batting decisions, eliminating key managerial choices like pinch-hitting and double switches that add tactical depth to the game."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_count": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "wobble-within"
+    }
+  },
+  "finished": "2026-06-12T16:56:23.688767"
+}

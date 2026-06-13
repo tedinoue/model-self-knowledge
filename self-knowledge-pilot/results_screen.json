@@ -1,0 +1,1272 @@
+{
+  "started": "2026-06-12T16:21:02.695335",
+  "n_asks": 5,
+  "models": {
+    "haiku": "claude-haiku-4-5-20251001",
+    "sonnet": "claude-sonnet-4-6"
+  },
+  "prompt": "{q} Begin your answer with the single word YES or NO, then give one sentence of reasoning.",
+  "items": {
+    "sandwich": {
+      "question": "Is a hot dog a sandwich?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A sandwich consists of filling between two separate pieces of bread, while a hot dog has filling in a single piece of bread that remains connected at one end.",
+            "YES. A sandwich is any filling between two pieces of bread, and a hot dog consists of a filling (sausage) between two pieces of bread (the bun), meeting the basic definition of a sandwich.",
+            "NO. A sandwich traditionally consists of filling between two separate pieces of bread, whereas a hot dog has filling in a single piece of bread that remains connected at the hinge.",
+            "NO. A sandwich consists of filling between two separate pieces of bread, whereas a hot dog has the filling attached to a single piece of bread that is hinged rather than separated.",
+            "NO. A sandwich consists of fillings between two separate pieces of bread, whereas a hot dog has the filling connected to the bread by a hinge, making it structurally distinct."
+          ],
+          "labels": [
+            "NO",
+            "YES",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 1,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich, its unique cultural identity, distinct bun design (often hinged rather than fully separated), and the ongoing debate have led most people, including culinary authorities, to treat it as its own separate food category.",
+            "NO. While a hot dog shares some structural similarities with a sandwich, its unique cultural identity, the distinct encasing of a hinged bun, and widespread culinary convention set it apart as its own category of food.",
+            "NO. While a hot dog shares structural similarities with a sandwich (filling between bread), it is conventionally recognized as its own distinct food category, and most culinary and cultural definitions treat it separately from sandwiches.",
+            "NO. While a hot dog shares some structural similarities with a sandwich, it is generally considered its own distinct food category, as the bun is typically hinged and connected rather than two separate pieces of bread enclosing a filling.",
+            "NO \u2014 while a hot dog shares structural similarities with a sandwich (filling between bread), its unique cylindrical bun, cultural identity, and the fact that it is typically considered its own distinct food category set it apart from what most people conventionally mean by \"sandwich.\""
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "pizza": {
+      "question": "Does pineapple belong on pizza?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Pineapple's sweetness and acidity clash with savory pizza flavors and traditional pizza-making principles, though this remains a genuinely divisive preference where personal taste ultimately matters most.",
+            "NO. The combination of sweet fruit and savory cheese creates a flavor clash that most traditional pizza enthusiasts find unpalatable, though this remains ultimately a matter of personal preference.",
+            "NO. Pineapple's sweet, acidic flavor fundamentally clashes with savory pizza sauce and cheese, creating an unbalanced taste profile that most culinary traditions do not support.",
+            "NO. Pineapple's sweet flavor and high acidity clash with savory pizza components like cheese and cured meats, creating an unbalanced taste profile that most traditional pizza cultures reject.",
+            "NO. Pineapple's sweet flavor and high acidity clash with savory pizza components rather than complement them in the way traditional toppings do."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "YES, pineapple belongs on pizza for anyone who enjoys it, because food preferences are subjective and the sweet-savory combination is a valid and beloved flavor contrast for millions of people worldwide.",
+            "YES, pineapple belongs on pizza because the sweet and tangy flavor provides a enjoyable contrast to savory ingredients like ham and cheese, and personal taste preferences are ultimately what determine a good pizza.",
+            "YES, pineapple belongs on pizza because the sweet and tangy flavor contrast with savory ham and cheese creates a balanced, enjoyable combination that many people love.",
+            "YES, pineapple belongs on pizza because the sweet and tangy flavor contrasts pleasantly with salty, savory toppings like ham, creating a balanced and enjoyable combination for those who appreciate it.",
+            "YES, pineapple belongs on pizza because the sweet and tangy flavor contrasts pleasantly with savory toppings like ham and cheese, and personal taste preferences are ultimately what determine a good pizza."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "diehard": {
+      "question": "Is Die Hard a Christmas movie?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Die Hard takes place during Christmas and uses Christmas imagery and themes as central to its setting and plot, making it a legitimate Christmas film despite its action-movie genre.",
+            "YES. Die Hard is set during a Christmas Eve office party and features explicit Christmas iconography and themes throughout, making it a Christmas movie despite its action-thriller genre.",
+            "YES. Die Hard is set during a Christmas Eve office party and features Christmas imagery and themes throughout, making it a film that takes place during the Christmas holiday season.",
+            "YES. Die Hard is set during Christmas and involves a Christmas party, making it fundamentally a Christmas-themed film despite its action movie genre.",
+            "YES. While primarily an action film, it is explicitly set during Christmas Eve and Christmas Day, making the holiday an integral part of the story's setting and context."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, though it is set during Christmas, its creator Bruce Willis himself has stated it is not a Christmas movie, and it is primarily an action thriller that merely uses the holiday as a backdrop rather than a central theme.",
+            "NO, though it is set during Christmas, it is primarily an action thriller whose holiday setting is incidental rather than central to its themes or story.",
+            "NO, though it is set during Christmas, its creator and star Bruce Willis himself has stated it is not a Christmas movie, and it is primarily an action thriller that simply uses the holiday as a backdrop rather than being centered on Christmas themes.",
+            "NO, though it is set during Christmas, its creator and star Bruce Willis himself has stated it is not a Christmas movie, and it functions primarily as an action thriller rather than a film centered on Christmas themes.",
+            "NO, though it is set during Christmas, its creator and star Bruce Willis himself has stated it is not a Christmas movie, and it functions primarily as an action thriller rather than a film centered on Christmas themes or spirit."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "cereal": {
+      "question": "Is cereal with milk a soup?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Cereal with milk is a breakfast dish where the solid components (cereal pieces) remain structurally distinct from the liquid, whereas soup is a dish where ingredients are cooked together to create a unified, homogeneous or semi-homogeneous mixture.",
+            "NO. Cereal with milk is a breakfast dish, not a soup, because soup is typically a savory dish made by simmering ingredients in broth or stock, whereas cereal is a prepared grain product meant to be eaten with milk as a beverage component.",
+            "NO. Soup is a savory dish made by simmering ingredients in liquid and typically served hot, whereas cereal is a breakfast food where grain pieces are served cold in milk as a beverage and food combination.",
+            "NO. Cereal with milk is a breakfast dish where the solid components (cereal pieces) remain distinct and are eaten with a spoon, whereas soup is a dish where ingredients are cooked together and the liquid is an integral part meant to be consumed as a unified whole.",
+            "NO. Soup is a savory dish made by simmering ingredients in broth or water, while cereal with milk is a breakfast food where dry grains are combined with milk as a beverage component rather than a cooking medium."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 While soup is typically defined as a liquid-based dish made by cooking or combining ingredients in broth or water, cereal with milk is generally categorized as a breakfast food where a solid ingredient is simply added to a cold liquid without any cooking or blending of flavors in the traditional soup sense.",
+            "NO. While soup is typically defined as a liquid-based dish with solid ingredients, cereal with milk is generally not considered a soup because soups are savory, cooked dishes, whereas cereal with milk is a sweet, uncooked food prepared by simply combining dry grains with cold milk.",
+            "NO. While soup is typically defined as a liquid-based dish where ingredients are cooked or prepared in broth or water, cereal with milk is not cooked, is not savory, and is not traditionally categorized or consumed as a soup in any culinary context.",
+            "NO. While soup is typically defined as a liquid-based dish with solid ingredients, cereal with milk does not qualify because the milk is not heated, the cereal is not cooked in the liquid, and it is culturally and culinarily categorized as a breakfast food rather than a soup.",
+            "NO. While soup is typically defined as a liquid-based dish with solid ingredients cooked or combined in broth, cereal with milk is generally considered a distinct food category where the solid components are not cooked in the liquid and the dish is not served or intended as a savory meal."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "tomato": {
+      "question": "Is a tomato a vegetable?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily classified as a vegetable due to its savory uses.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory flavor and culinary uses.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory flavor and culinary applications.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flowering plant's ovary and contains seeds, though it is culinarily treated as a vegetable due to its savory applications.",
+            "NO. Botanically, tomatoes are fruits because they develop from the flower's ovary and contain seeds, though they are culinarily treated as vegetables due to their savory flavor and culinary applications."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. Botanically, a tomato is a fruit because it develops from the flower of a plant and contains seeds, though it is commonly referred to as a vegetable in culinary contexts.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower of a plant and contains seeds, though it is commonly referred to as a vegetable in culinary contexts.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower of a plant and contains seeds, though it is commonly referred to as a vegetable in culinary contexts.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower of a plant and contains seeds, though it is commonly referred to as a vegetable in culinary contexts.",
+            "NO. Botanically, a tomato is a fruit because it develops from the flower of a plant and contains seeds, though it is commonly referred to as a vegetable in culinary contexts."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "burrito": {
+      "question": "Is a burrito a sandwich?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A sandwich is traditionally defined as filling between two slices of bread, whereas a burrito is a filling wrapped in a single tortilla, making them distinct categories of food.",
+            "NO. A burrito is a distinct dish category that wraps fillings in a flour tortilla, whereas a sandwich traditionally consists of fillings between two pieces of bread.",
+            "NO. A sandwich consists of fillings between two pieces of bread, while a burrito is a filling wrapped in a single tortilla, making them structurally and culturally distinct dishes.",
+            "NO. A sandwich is typically defined as a filling between two slices of bread, whereas a burrito is a filling wrapped in a single tortilla.",
+            "NO. A sandwich is typically defined as fillings between two pieces of bread, while a burrito is a filling wrapped in a single tortilla, making them distinct categories of food."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. A burrito uses a single tortilla wrapped around its fillings, whereas a sandwich traditionally requires bread or bread-like components encasing the filling from at least two sides, making them structurally and culinarily distinct.",
+            "NO. A burrito uses a single wrapped tortilla rather than two separate pieces of bread enclosing a filling, which is the defining structural characteristic of a sandwich.",
+            "NO. A burrito uses a single tortilla wrapped around its fillings, whereas a sandwich traditionally consists of fillings placed between two separate pieces of bread, making them structurally and culinarily distinct.",
+            "NO. A burrito uses a single tortilla wrapped around its fillings, whereas a sandwich typically consists of fillings placed between two separate pieces of bread, making them distinct food structures.",
+            "NO. A burrito uses a single tortilla wrapped around its filling, whereas a sandwich traditionally consists of filling placed between two separate pieces of bread."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "hamburger": {
+      "question": "Is a hamburger a sandwich?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. A hamburger meets the definition of a sandwich because it consists of a filling (meat patty) placed between two pieces of bread.",
+            "YES. A sandwich is defined as filling placed between two pieces of bread, and a hamburger consists of a patty between two bun halves, which meets this definition.",
+            "YES. A hamburger meets the definition of a sandwich as a filling placed between two pieces of bread.",
+            "YES. A hamburger meets the basic definition of a sandwich\u2014it consists of a filling (ground beef patty) placed between two pieces of bread (bun halves).",
+            "YES. A hamburger meets the definition of a sandwich as meat and other fillings placed between two pieces of bread."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 A hamburger meets the fundamental definition of a sandwich, as it consists of a filling (a meat patty and toppings) placed between two pieces of bread (a bun).",
+            "YES \u2014 A hamburger meets the structural definition of a sandwich, consisting of a filling (beef patty and toppings) placed between two pieces of bread (a bun).",
+            "YES \u2014 A hamburger meets the structural definition of a sandwich, as it consists of a filling (a meat patty and toppings) placed between two pieces of bread (a bun).",
+            "YES \u2014 A hamburger fits the broad definition of a sandwich, as it consists of a filling (a meat patty and toppings) placed between two pieces of bread (a bun).",
+            "YES \u2014 A hamburger fits the fundamental definition of a sandwich, as it consists of a filling (a meat patty and toppings) placed between two pieces of bread (a bun)."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "chili": {
+      "question": "Is chili a soup?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Chili is a soup because it consists of a liquid broth base combined with solid ingredients like beans and meat, which is the defining characteristic of soup.",
+            "NO. Chili is typically classified as a stew rather than a soup because it has a much thicker consistency with more solid ingredients and less broth.",
+            "YES. Chili is a soup because it is a liquid-based dish with meat, beans, and vegetables simmered together, fitting the culinary definition of soup as a cooked dish of liquid with other ingredients.",
+            "YES. Chili is a soup because it is a liquid-based dish with meat, beans, and vegetables simmered together, fitting the basic definition of soup as a cooked liquid dish with solid ingredients.",
+            "YES. Chili is typically classified as a soup because it consists of a liquid broth base with solid ingredients like beans and meat suspended throughout, which fits the fundamental definition of soup."
+          ],
+          "labels": [
+            "YES",
+            "NO",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 4,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct category of dish, characterized by its thick consistency, use of chili peppers, and hearty ingredients like meat and beans that set it apart from traditional soups.",
+            "NO. While chili shares some characteristics with soup, it is generally considered a distinct dish due to its thick consistency, specific ingredients (chili peppers, meat, and often beans), and its own culinary tradition that sets it apart from soups.",
+            "NO, chili is generally classified as a stew rather than a soup, because it has a thick, hearty consistency with chunky ingredients rather than the thinner, more liquid-based composition typical of soups.",
+            "NO. While chili shares some characteristics with soup, it is generally classified as its own distinct dish due to its thick consistency, hearty ingredients, and cultural identity separate from traditional soups.",
+            "NO. While chili shares some characteristics with soup, it is generally considered its own distinct category of dish, characterized by its thick, hearty consistency and specific combination of meat, chili peppers, and spices that set it apart from traditional soups."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "poptart": {
+      "question": "Is a Pop-Tart a ravioli?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A Pop-Tart is a sweet pastry filled with fruit or frosting, while ravioli is a savory pasta dish with a filling enclosed in pasta dough.",
+            "NO. A Pop-Tart is a sweet pastry filled with fruit or cream, while ravioli is a savory Italian pasta dish with filling enclosed in pasta dough.",
+            "NO. A Pop-Tart is a sweet pastry filled with fruit filling and frosting, while ravioli is a savory Italian pasta dish with cheese or meat filling enclosed in pasta dough.",
+            "NO. A Pop-Tart is a pastry with sweet filling, while ravioli is a pasta dish with savory filling enclosed in pasta dough, making them fundamentally different foods despite their similar pocket shape.",
+            "NO. A Pop-Tart is a pastry with sweet filling sealed between two layers of dough, while ravioli is a pasta dish with savory filling enclosed in pasta sheets."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, a Pop-Tart is not a ravioli, because while both have a filling enclosed in a dough/pastry exterior, ravioli is a pasta-based savory dish cooked by boiling, whereas a Pop-Tart is a sweet baked pastry made from a different type of dough with no meaningful culinary or categorical overlap.",
+            "NO. While both Pop-Tarts and ravioli share a similar structure of filling enclosed in a dough-like shell, a Pop-Tart is a sweet pastry baked with a flaky crust, whereas ravioli is a pasta dish with a savory (or occasionally sweet) filling, and culinary classification depends on cultural context, ingredients, and preparation method rather than shape alone.",
+            "NO, a Pop-Tart is not a ravioli, because while both have a filling enclosed in a dough/pastry exterior, ravioli is a pasta-based savory dish cooked by boiling, whereas a Pop-Tart is a sweet, baked pastry product with entirely different ingredients, cultural context, and culinary tradition.",
+            "NO. While both Pop-Tarts and ravioli consist of a filling enclosed in a dough or pastry shell, ravioli is defined as a type of pasta filled with savory ingredients, whereas a Pop-Tart is a sweet, baked pastry product in an entirely different culinary category.",
+            "NO. While both Pop-Tarts and ravioli share a structural similarity of filling enclosed in a dough/pastry shell, ravioli is defined as a pasta-based dish with savory filling, whereas a Pop-Tart is a sweet, baked pastry product in an entirely different culinary category."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "pluto": {
+      "question": "Is Pluto a planet?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Pluto was reclassified as a \"dwarf planet\" in 2006 by the International Astronomical Union because it hasn't cleared its orbital neighborhood of other debris, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" in 2006 by the International Astronomical Union because it hasn't cleared its orbital path of other debris, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" in 2006 by the International Astronomical Union because it has not cleared its orbital neighborhood of other debris, which is one of the three criteria required for planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" in 2006 by the International Astronomical Union because it hasn't cleared its orbital path of other debris, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" in 2006 by the International Astronomical Union because it has not cleared its orbital path of other debris, which is one of the criteria required for full planetary status."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. Pluto was reclassified as a \"dwarf planet\" by the International Astronomical Union in 2006 because it has not cleared the neighborhood around its orbit, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" by the International Astronomical Union in 2006 because it has not cleared the neighborhood around its orbit, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" by the International Astronomical Union in 2006 because it has not cleared the neighborhood around its orbit, which is one of the three criteria required for a celestial body to be classified as a full planet.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" by the International Astronomical Union in 2006 because it has not cleared the neighborhood around its orbit, which is one of the three criteria required for full planetary status.",
+            "NO. Pluto was reclassified as a \"dwarf planet\" by the International Astronomical Union in 2006 because it has not cleared the neighborhood around its orbit, which is one of the three criteria required for full planetary status."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "peanut": {
+      "question": "Is a peanut a nut?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Peanuts are legumes that grow underground in pods, similar to beans and peas, rather than tree nuts like almonds or walnuts.",
+            "NO. Peanuts are legumes (members of the bean family) that grow in pods underground, not tree nuts like almonds or walnuts.",
+            "NO. Peanuts are legumes that grow in pods underground, not tree nuts like almonds or walnuts.",
+            "NO. Peanuts are legumes, not true nuts\u2014they grow in pods underground and are more closely related to beans and peas than to tree nuts like almonds or walnuts.",
+            "NO. Peanuts are legumes (members of the bean family) that grow in pods underground, not tree nuts like almonds or walnuts."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 A peanut is actually a legume, belonging to the same plant family as beans and lentils, as it grows underground in a pod rather than on a tree like true nuts.",
+            "NO \u2014 A peanut is actually a legume, belonging to the same plant family as beans and lentils, as it grows underground in a pod rather than on a tree like true nuts.",
+            "NO \u2014 A peanut is actually a legume, belonging to the same plant family as beans and lentils, as it grows in pods underground rather than on trees like true nuts.",
+            "NO. A peanut is actually a legume, belonging to the same plant family as beans and lentils, as it grows underground in a pod rather than on a tree like true nuts.",
+            "NO. A peanut is actually a legume, belonging to the same plant family as beans and lentils, as it grows underground in pods rather than on trees like true nuts."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "strawberry": {
+      "question": "Is a strawberry a berry?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. A strawberry is botanically an accessory fruit, not a true berry, because its flesh develops from the flower's receptacle rather than from the ovary.",
+            "NO. A strawberry is not a true berry in botanical terms because its flesh develops from the receptacle (the flower's base) rather than from the ovary, making it an accessory fruit instead.",
+            "NO. A strawberry is not a true berry botanically; it's actually an aggregate accessory fruit composed of many small drupelets surrounding a receptacle, whereas true berries like blueberries develop from a flower's ovary.",
+            "NO. A strawberry is not botanically a berry because it develops from a flower's receptacle rather than from the ovary, making it an accessory fruit, whereas true berries like blueberries develop from the ovary itself.",
+            "YES. Strawberries are berries because they develop from the flower's ovary and contain seeds embedded in their flesh, which is the botanical definition of a berry."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "YES"
+          ],
+          "yes_of_5": 1,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO. Despite its name, a strawberry is botanically an \"accessory fruit\" (or false fruit), not a true berry, as it develops from the receptacle rather than the ovary of the flower.",
+            "NO. Despite its name, a strawberry is botanically an \"accessory fruit\" or \"false fruit,\" while true berries (like bananas or grapes) develop from a single ovary of a single flower.",
+            "NO. Botanically, a strawberry is an \"accessory fruit\" (the fleshy part develops from the receptacle rather than the ovary), whereas true berries, like bananas or grapes, develop from a single ovary.",
+            "NO. Despite its name, a strawberry is botanically an accessory fruit (false fruit), not a true berry, whereas a true berry is a fleshy fruit developed from a single flower's ovary \u2014 which actually makes bananas, grapes, and even tomatoes true berries.",
+            "NO \u2014 despite its name, a strawberry is botanically an accessory fruit (or \"false fruit\") whose fleshy part develops from the receptacle rather than the ovary, whereas a true botanical berry, like a banana or grape, develops entirely from a single flower's ovary."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "birds": {
+      "question": "Are birds dinosaurs?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Birds are classified as avian dinosaurs because they evolved from theropod dinosaurs during the Jurassic period and retain many dinosaurian characteristics including hollow bones, three-toed feet, and egg-laying reproduction.",
+            "YES. Birds are considered avian dinosaurs by modern paleontologists because they evolved from theropod dinosaurs and retain many dinosaurian characteristics including hollow bones, feathers, and egg-laying reproduction.",
+            "YES. Birds are classified as avian dinosaurs because they evolved from theropod dinosaurs and retain many of their characteristic features, making them the only living descendants of the dinosaur lineage.",
+            "YES. Birds are classified as avian dinosaurs because they evolved from theropod dinosaurs and retain many dinosaurian characteristics including hollow bones, feathers, and egg-laying reproduction.",
+            "YES. Birds are classified as avian dinosaurs because they evolved from theropod dinosaurs and retain many dinosaurian characteristics, making them living descendants of the dinosaur lineage rather than a separate group."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 Birds are considered avian dinosaurs, having evolved directly from theropod dinosaurs and sharing a continuous lineage with them, which is why modern scientific classification places birds within the dinosaur family tree.",
+            "YES \u2014 Birds are considered avian dinosaurs, having evolved directly from theropod dinosaurs during the Mesozoic Era, making them the only dinosaur lineage that survived the mass extinction event approximately 66 million years ago.",
+            "YES \u2014 Birds are classified as avian dinosaurs, having evolved directly from theropod dinosaurs, making them the only dinosaur lineage to survive the mass extinction event approximately 66 million years ago.",
+            "YES \u2014 Birds are considered avian dinosaurs, having evolved directly from theropod dinosaurs, making them the only dinosaur lineage to survive the mass extinction event approximately 66 million years ago.",
+            "YES \u2014 Birds are considered avian dinosaurs, having evolved directly from theropod dinosaurs and retaining enough defining skeletal characteristics to be classified within the dinosaur family tree."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "virus": {
+      "question": "Is a virus alive?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Viruses lack the ability to metabolize, grow, or reproduce independently\u2014they require host cells to replicate and thus don't meet the biological criteria for life.",
+            "NO. Viruses lack the ability to metabolize, grow, or reproduce independently\u2014they require host cells to replicate and are essentially packages of genetic material rather than living organisms by the standard biological definition.",
+            "NO. Viruses lack the ability to metabolize, grow, or reproduce independently\u2014they require a host cell's machinery to replicate, which disqualifies them from meeting the standard biological definition of life.",
+            "NO. Viruses lack the ability to metabolize, grow, or reproduce independently\u2014they require a host cell's machinery to replicate, which is why they're considered obligate intracellular parasites rather than living organisms by most biological definitions.",
+            "NO. Viruses lack the ability to metabolize, grow, or reproduce independently\u2014they require a host cell's machinery to replicate, which is why they're considered obligate intracellular parasites rather than living organisms."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO \u2014 Viruses are not considered alive because they lack the ability to carry out metabolic processes or reproduce independently, requiring a host cell's machinery to replicate.",
+            "NO \u2014 Viruses are not considered alive because they lack the ability to carry out metabolic processes or reproduce independently, requiring a host cell's machinery to replicate.",
+            "NO \u2014 Viruses are not considered alive because they lack the ability to carry out metabolic processes or reproduce independently, requiring a host cell's machinery to replicate.",
+            "NO \u2014 Viruses are not considered alive because they lack the ability to carry out metabolic processes or reproduce independently, requiring a host cell's machinery to replicate.",
+            "NO \u2014 Viruses are generally not considered alive because they lack the ability to carry out metabolic processes or reproduce independently, requiring a host cell's machinery to replicate."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "jaffa": {
+      "question": "Is a Jaffa Cake a cake?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. A Jaffa Cake is officially classified as a cake by HM Revenue & Customs in the UK, as it was determined to be more cake than biscuit based on its sponge base and moisture content in a famous 1991 court case.",
+            "YES. A Jaffa Cake has a sponge base, a filling layer, and a chocolate coating, which are the structural components of a cake rather than a biscuit.",
+            "YES. Jaffa Cakes are classified as cakes rather than biscuits because they have a sponge base that rises during baking due to aeration, which is a defining characteristic of cakes.",
+            "YES. Jaffa Cakes are classified as cakes rather than biscuits because they have a sponge base that rises during baking, which is a characteristic feature of cakes rather than biscuits.",
+            "YES. A Jaffa Cake is legally classified as a cake in the UK based on a 1991 VAT tribunal ruling, which determined that its sponge base, cake-like texture, and the way it hardens when stale (like cake, not biscuits) make it a cake rather than a biscuit."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES, a Jaffa Cake is legally and technically classified as a cake, as established by a 1991 UK VAT tribunal ruling which determined that it met the definition of a cake based on factors including its ingredients, texture, and the fact that it goes hard when stale (as cakes do), rather than soft like biscuits.",
+            "YES, a Jaffa Cake is legally and technically classified as a cake, as established by a 1991 UK VAT tribunal which ruled in McVitie's favour, noting that it goes hard when stale (like a cake) rather than soft (like a biscuit).",
+            "YES \u2014 Despite being sold in the biscuit aisle, a Jaffa Cake is legally and technically classified as a cake, as demonstrated by a 1991 UK VAT tribunal ruling, partly supported by the fact that it goes hard when stale (as cakes do) rather than soft (as biscuits do).",
+            "YES, a Jaffa Cake is legally and technically classified as a cake, as established by a 1991 UK VAT tribunal ruling which determined that it met the definition of a cake based on factors including its ingredients, texture, and the fact that it goes hard when stale (as cakes do), rather than soft like biscuits.",
+            "YES \u2014 Despite being stored and textured like a biscuit, it is legally and technically classified as a cake because it goes hard when stale, whereas biscuits go soft, which was the key distinction established in a notable UK VAT tribunal ruling."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "toiletpaper": {
+      "question": "Should toilet paper hang over the roll rather than under?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. The original patent for the toilet paper roll explicitly shows the paper going over the roll, and this position is also more hygienic and easier to locate and grab, especially in low-light conditions.",
+            "YES. The over position is easier to locate and grab, reduces the risk of accidentally brushing your hand against the wall, and is the standard recommended by most etiquette experts and the original patent design.",
+            "YES. The original patent for the toilet paper roll explicitly depicts the paper going over the roll, and this orientation is also more convenient for locating and grasping the end of the paper.",
+            "YES. The original 1891 patent for the toilet paper roll explicitly shows the paper going over the roll, and this orientation is easier to locate and grab, especially in low-light conditions or for people with limited dexterity.",
+            "YES. The original patent for the toilet paper roll explicitly depicts the paper going over the roll, and this orientation is more convenient for locating and grabbing the end of the paper."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES, the original 1891 patent by Seth Wheeler shows the paper hanging over the roll, and this orientation makes it easier to find and grab the loose end with one hand.",
+            "YES, hanging over the roll is generally more convenient because it makes the paper easier to find, grab, and tear with one hand.",
+            "YES, hanging over the roll is generally considered more convenient because it makes the end of the paper easier to find and grab with one hand.",
+            "YES, the original 1891 patent by Seth Wheeler explicitly showed the paper hanging over the front of the roll, and this orientation makes the sheet easier to find and tear with one hand.",
+            "YES, the original 1891 patent by Seth Wheeler shows the paper hanging over the front of the roll, and this orientation makes it easier to find and tear the sheet with one hand."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "oxford": {
+      "question": "Is the Oxford comma necessary?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. The Oxford comma prevents ambiguity in lists, particularly when items contain conjunctions or when the final items could be misread as a single unit.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, such as in the famous example \"I love my parents, my teacher, and my dog\" versus without it, which could be misread.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating all items, such as in \"I invited my parents, Madonna, and Einstein\" versus \"I invited my parents, Madonna and Einstein\" (which could suggest Madonna and Einstein are your parents).",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating all items, such as in \"I invited my parents, Madonna, and the Pope\" where it clarifies that Madonna and the Pope are separate from the parents.",
+            "YES. The Oxford comma prevents ambiguity in lists by clearly separating the final item from the others, which is particularly important in complex sentences where meaning could otherwise be misinterpreted."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 While not universally required, the Oxford comma prevents ambiguous sentences where the final two items in a list might be misread as a single paired unit rather than two distinct elements.",
+            "NO, it is not strictly necessary, but it is often recommended to prevent ambiguity in sentences where the final list items could be misread as a single combined unit.",
+            "NO, it is not strictly necessary, but it is often recommended to prevent ambiguity, as sentences can sometimes be misread without it.",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where the final list items might otherwise be misread as a single combined element.",
+            "NO, it is not strictly necessary, but it can prevent ambiguity in sentences where the final list items might otherwise appear to be paired or grouped together."
+          ],
+          "labels": [
+            "YES",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 1,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "milktea": {
+      "question": "Should the milk go into the cup before the tea?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. Tea should be brewed in the cup first with hot water, then milk can be added afterward to the desired strength and temperature.",
+            "NO. Tea should be brewed first in the cup with hot water, then milk can be added afterward to the desired strength and temperature.",
+            "NO. Tea should be brewed in the cup first, then milk is added afterward to the brewed tea, allowing you to control the strength and temperature of the final drink.",
+            "NO. Tea should be brewed in the cup first with hot water, then milk can be added afterward to the desired strength and temperature.",
+            "NO. Tea should be brewed in the cup first with hot water, then milk can be added afterward to the desired strength and temperature."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, traditionally in British tea-making the tea is poured first so you can judge the correct amount of milk needed to achieve the desired colour and strength, though \"milk in first\" (MIF) has its historical defenders who argue it prevents scalding the milk.",
+            "NO, though this is a matter of personal and cultural preference, the traditional method is to pour tea first so you can judge the strength and colour, while the historical \"milk in first\" (MIF) argument relates mainly to protecting fine china cups from cracking with hot liquid.",
+            "NO, traditionally in British tea-making, the tea is poured first so you can judge the strength and add the right amount of milk, though \"milk in first\" (MIF) has historical defenders who argue it prevents scalding the milk.",
+            "NO, traditionally in British tea-making the tea is poured first so you can judge the strength and add the right amount of milk, though the \"milk first\" (MIF) debate has been ongoing for centuries with some arguing it prevents scalding the milk and produces a better flavour.",
+            "NO, traditionally in British tea-making the tea (or hot water) goes in first, though the \"milk in first\" (MIF) debate has been long-standing, with the original historical reason for milk-first being to protect delicate porcelain cups from cracking due to heat."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "recline": {
+      "question": "Is it acceptable to fully recline your seat on a daytime flight?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. On daytime flights, fully reclining your seat is inconsistent with the comfort and reasonable space of passengers behind you, who are typically awake and using their tray tables or working.",
+            "NO. On daytime flights, fully reclining your seat is inconsiderate to the passenger behind you, who has limited legroom and may want to use their tray table or work on a laptop.",
+            "NO. On daytime flights, passengers typically expect to remain upright for normal activities like working, eating, or socializing, so fully reclining your seat infringes on the limited personal space of the person behind you without compelling need.",
+            "NO. On daytime flights, passengers typically expect to remain upright for meals, work, or general comfort, and fully reclining infringes on the already limited legroom of the person behind you without significant need.",
+            "NO. On daytime flights, passengers typically expect to use their tray tables and have reasonable personal space, making full recline inconsiderate to the person behind you who may need to work or eat."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, it is generally considered inconsiderate on a daytime flight because it significantly reduces the space of the passenger behind you, who is likely trying to work, eat, or use a screen during waking hours.",
+            "NO, it is generally considered poor etiquette to fully recline your seat on a daytime flight because it significantly reduces the space of the passenger behind you during hours when most people are awake, working, or eating.",
+            "NO. On a daytime flight, fully reclining your seat significantly intrudes on the passenger behind you's limited space, and the general social norm is to be considerate and either avoid reclining or only recline slightly, especially during meal service or shorter flights.",
+            "NO, reclining your seat fully on a daytime flight is generally considered inconsiderate because it significantly reduces the space of the passenger behind you during hours when they are likely trying to use a tray table, work, or eat.",
+            "NO. On a daytime flight, fully reclining your seat significantly encroaches on the passenger behind you's space and is generally considered inconsiderate, especially during meal times or when they are working on a laptop."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    },
+    "xmasmusic": {
+      "question": "Is it acceptable to play Christmas music before Thanksgiving?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Musical preferences are personal, and there's no universal rule preventing anyone from enjoying Christmas music whenever they choose, even if retail and radio stations traditionally wait until after Thanksgiving.",
+            "NO. Thanksgiving deserves its own moment of celebration before the holiday season shifts focus to Christmas, and playing Christmas music beforehand diminishes that transition and rushes the seasonal experience.",
+            "YES. Many people enjoy Christmas music year-round, and playing it before Thanksgiving is ultimately a personal preference that harms no one.",
+            "NO. Thanksgiving deserves its own moment of cultural focus before the holiday season shifts entirely to Christmas, and playing Christmas music beforehand diminishes that distinction.",
+            "NO. Thanksgiving deserves its own dedicated time and playing Christmas music beforehand diminishes the distinct character of that holiday and rushes people through the fall season."
+          ],
+          "labels": [
+            "YES",
+            "NO",
+            "YES",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 2,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, many people find it disrespectful to skip over Thanksgiving, and playing Christmas music too early can contribute to holiday fatigue by the time Christmas actually arrives.",
+            "NO, many people consider it disrespectful to Thanksgiving and feel that playing Christmas music before the holiday rushes the season and contributes to the commercialization of Christmas.",
+            "NO, many people consider it premature and disrespectful to Thanksgiving, as jumping straight to Christmas music skips over the holiday and can feel like an unwelcome rush through the season.",
+            "NO, many people consider it disrespectful to Thanksgiving as a holiday to skip over it entirely, and starting Christmas music too early can lead to \"holiday fatigue\" by the time Christmas actually arrives.",
+            "NO, many people consider it disrespectful to Thanksgiving as a holiday, and starting Christmas music too early can lead to \"holiday fatigue\" before December even arrives."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "wobble-within"
+    },
+    "monopoly": {
+      "question": "Is Monopoly a good board game?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Monopoly teaches valuable lessons about money management and strategic thinking while providing engaging social interaction, though it does have a reputation for overly long play times that can test players' patience.",
+            "YES. Monopoly offers engaging strategic gameplay and social interaction, though it can be lengthy and frustrating for some players due to its unpredictable length and potential for player elimination.",
+            "YES. Monopoly teaches valuable lessons about money management and strategic decision-making while providing entertaining social interaction, though some find its length and luck-dependent outcomes frustrating.",
+            "YES. Monopoly effectively teaches financial concepts like resource management and strategic decision-making while providing extended gameplay that encourages social interaction among players.",
+            "YES. Monopoly effectively teaches financial concepts like property investment and resource management while providing engaging social interaction, though it does have the drawback of potentially lengthy gameplay that can test players' patience."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, Monopoly is widely considered a poorly designed board game because it is excessively long, heavily luck-dependent, eliminates players early leaving them to watch others play, and was ironically originally designed to demonstrate the negative effects of monopolistic wealth concentration.",
+            "NO, Monopoly is widely criticized by game designers and players for its excessive length, heavy reliance on luck over strategy, and the tendency to eliminate players early, leaving them to watch others play for hours.",
+            "NO, Monopoly is widely considered a poorly designed board game because it often drags on for hours, eliminates players early leaving them with nothing to do, and relies heavily on luck rather than meaningful strategic decisions.",
+            "NO, Monopoly is widely considered a poorly designed board game because it involves lengthy playtime, heavy luck-based mechanics, player elimination, and tends to create frustration rather than meaningful strategic engagement.",
+            "NO, Monopoly is often considered a poor board game design because it can drag on for hours, eliminates players early, relies heavily on luck, and frequently ends in frustration or arguments rather than satisfying gameplay."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "waterwet": {
+      "question": "Is water wet?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Water is wet because it adheres to and saturates surfaces, which is the defining characteristic of wetness.",
+            "YES. Water is wet because it is a liquid that adheres to and coats surfaces, which is the defining characteristic of wetness.",
+            "YES. Water is wet because it adheres to and saturates other materials, which is the defining characteristic of wetness.",
+            "YES. Water is wet because it adheres to and saturates surfaces it contacts, which is the physical definition of wetness.",
+            "YES. Water is wet because it adheres to and saturates surfaces it contacts, which is the defining characteristic of wetness."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, water is not wet by itself \u2014 \"wetness\" is the sensation or condition experienced by a solid surface when water adheres to it, making wetness a property of the interaction between water and another material, not of water itself.",
+            "NO, water is not wet in itself \u2014 \"wetness\" is the sensation or condition experienced by a solid surface when water adheres to it, making wetness a property of the interaction between water and another material, not of water itself.",
+            "NO \u2014 water itself is not wet; \"wetness\" describes the sensation or condition of a surface that has been coated or permeated by a liquid, so water causes wetness in other things rather than being wet itself.",
+            "NO, water itself is not wet \u2014 wetness is the sensation or condition caused by water (or another liquid) adhering to a surface, so water makes things wet but is not itself wet.",
+            "NO. Water itself is not wet; wetness is the sensation or condition caused by water (or another liquid) adhering to a surface, so water makes things wet but is not itself wet."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "straw": {
+      "question": "Does a straw have one hole rather than two?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. A straw has one continuous hole that runs through it from end to end, rather than two separate holes.",
+            "YES. A straw is a single continuous tube, so it has one hole (the hollow interior) rather than two, even though it has two openings.",
+            "YES. A straw has one continuous hole that runs through it from end to end, rather than two separate holes.",
+            "YES. A straw is topologically a single hole (one continuous tunnel) rather than two separate holes, even though it has two openings.",
+            "YES. A straw is a single continuous hollow tube, so the opening at each end is part of the same hole running through it."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 A straw has one hole that runs continuously through it from one end to the other, making it topologically a single tunnel, not two separate holes.",
+            "YES, a straw has one hole because topologically it is a cylinder, and a cylinder has a single continuous tunnel running through it, making it one hole with two openings (entrances), not two separate holes.",
+            "YES \u2014 A straw is a single continuous tunnel, so it has one hole that runs through the entire length of the object, just as a donut or a hollow cylinder has one hole in topological terms.",
+            "YES, a straw has one hole because topologically it is equivalent to a cylinder or torus with one continuous tunnel running through it, meaning there is only one hole that goes from one opening to the other, rather than two separate holes.",
+            "YES \u2014 A straw is a single continuous tunnel, so it has one hole that runs through it, just as a donut has one hole rather than two separate openings."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "golf": {
+      "question": "Is golf a sport?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Golf requires significant physical skill, athleticism, precision, and competition against others under standardized rules, meeting the fundamental criteria of a sport.",
+            "YES. Golf requires physical skill, strategy, and competition against opponents or established standards, meeting the fundamental criteria of a sport.",
+            "YES. Golf requires physical skill, athletic ability, and competition against opponents or standards, meeting the fundamental criteria of a sport.",
+            "YES. Golf requires physical skill, athletic ability, and competition against others or oneself under standardized rules, meeting the fundamental criteria of a sport.",
+            "YES. Golf requires significant physical skill, mental strategy, and athleticism to compete at high levels, and it is widely recognized as a sport by major international organizations."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES. Golf requires significant physical skill, athleticism, and mental precision to compete at any level, meeting the standard definition of a sport.",
+            "YES. Golf requires significant physical skill, athleticism, and mental focus to compete at any level, meeting the standard definition of a sport.",
+            "YES. Golf requires significant physical skill, athletic ability, and mental focus to compete at any level, meeting the standard criteria for a sport.",
+            "YES. Golf requires significant physical skill, athleticism, and mental precision to compete at any level, meeting the standard definition of a sport.",
+            "YES. Golf requires physical skill, athletic ability, and mental focus to compete at a professional level, meeting the criteria of a sport."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "chess": {
+      "question": "Is chess a sport?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Chess requires strategic thinking, competition between opponents under standardized rules, and skill development through practice, fitting the definition of a sport despite being non-physical.",
+            "YES. Chess requires strategic thinking, competitive skill development, and organized tournaments with rankings, meeting the criteria of sport as a structured competitive activity, even though it lacks the physical exertion component of traditional athletics.",
+            "YES. Chess requires strategic thinking, competition under standardized rules, and involves recognized rankings and organized tournaments similar to traditional sports.",
+            "YES. Chess is recognized as a sport by the International Olympic Committee and major sporting bodies because it requires strategic thinking, competition, and skill development at high levels.",
+            "YES. Chess is widely recognized as a sport by international organizations like the International Olympic Committee because it requires strategic thinking, sustained concentration, competition under standardized rules, and organized tournaments with rankings and championships."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, chess is not widely considered a traditional sport because it lacks the physical exertion component typically required to classify an activity as a sport, though it is recognized as a \"mind sport\" by some organizations.",
+            "NO, chess is not widely classified as a sport because it lacks the physical exertion component typically required to meet the definition of a sport, though it is recognized by the International Olympic Committee as a mind sport.",
+            "NO, chess is not widely classified as a sport because it lacks the physical exertion component typically required to meet the definition of a sport, though it is recognized by the International Olympic Committee as a mind sport.",
+            "NO, chess is not widely considered a sport because it lacks the physical exertion component typically required to meet the definition of a sport, though it is recognized as a mind sport by organizations like the International Olympic Committee.",
+            "NO \u2014 While chess requires intense mental competition and strategic skill, it is generally not classified as a sport because it lacks the physical exertion component that most definitions of sport require."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "contested-between"
+    },
+    "batman": {
+      "question": "Is Batman a superhero?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Batman possesses extraordinary skills, advanced technology, and resources that allow him to fight crime and protect his city at a superhuman level, which are defining characteristics of superheroes.",
+            "YES. Batman possesses extraordinary skills, advanced technology, and resources that enable him to fight crime and protect his city at a superhuman level, which are defining characteristics of superheroes.",
+            "YES. Batman possesses exceptional skills, intelligence, and technology that allow him to fight crime and protect others at a superhuman level, which are defining characteristics of superheroes.",
+            "YES. Batman possesses exceptional skills, advanced technology, and exceptional intellect that he uses to fight crime and protect his city, which are defining characteristics of a superhero.",
+            "YES. Batman possesses extraordinary skills, resources, and technology that enable him to fight crime and protect his city at a superhuman level, which are defining characteristics of a superhero."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES. Batman is widely recognized as a superhero, as he uses extraordinary skills, technology, and a costumed identity to fight crime and protect Gotham City, even though he lacks superhuman powers.",
+            "YES. Batman is widely recognized as a superhero, as he uses extraordinary skills, technology, and a costumed identity to fight crime and protect Gotham City, even though he lacks superpowers.",
+            "YES. Batman is widely recognized as a superhero, as he fights crime and protects Gotham City using his intelligence, physical abilities, and advanced technology, even though he lacks supernatural powers.",
+            "YES. Batman is widely recognized as a superhero, as he fights crime and protects Gotham City using his intellect, physical abilities, and technology, even though he lacks superpowers.",
+            "YES. Batman is widely recognized as a superhero, as he uses extraordinary skill, technology, and a moral code to fight crime and protect Gotham City, even though he lacks supernatural powers."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "starwars": {
+      "question": "Is Star Wars science fiction?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Star Wars is science fiction because it features advanced technology, space travel, and futuristic worlds as central elements of its storytelling.",
+            "YES. Star Wars is science fiction because it is set in a futuristic universe with advanced technology, space travel, and alien civilizations, which are core elements of the science fiction genre.",
+            "YES. Star Wars uses futuristic technology, space travel, and alien worlds as central elements, which are defining characteristics of science fiction.",
+            "YES. Star Wars uses futuristic technology, space travel, and alien worlds as central elements of its storytelling, which are defining characteristics of science fiction.",
+            "YES. Star Wars features advanced technology, space travel, and alien civilizations that are characteristic of science fiction, even though it emphasizes mystical and fantasy elements like the Force."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 However, while Star Wars is set in space and features advanced technology, it is more accurately described as science fantasy, since it relies heavily on mystical elements like the Force rather than grounded scientific concepts.",
+            "YES \u2014 However, Star Wars is more accurately described as science fantasy, as it relies heavily on mystical elements like the Force, heroic archetypes, and fantasy storytelling conventions rather than grounding its technology and concepts in scientific plausibility.",
+            "YES \u2014 However, while Star Wars is set in space and features futuristic technology, it is more accurately described as space fantasy or science fantasy, since it relies heavily on mythological storytelling, mystical elements like the Force, and heroic archetypes rather than grounded scientific speculation.",
+            "YES \u2014 However, Star Wars is more accurately described as space fantasy or science fantasy, as it relies heavily on mystical elements like the Force and follows classic fantasy storytelling archetypes rather than grounding its concepts in scientific plausibility, though it is broadly categorized under the science fiction genre umbrella.",
+            "YES \u2014 However, Star Wars is more accurately described as science fantasy, as it relies heavily on mystical elements like the Force and follows classic fantasy storytelling tropes rather than grounding its technology and concepts in scientific plausibility."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "sunday": {
+      "question": "Is Sunday the first day of the week?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. In many Western countries, including the United States, Sunday is traditionally considered the first day of the week, though this varies by culture and region\u2014some countries designate Monday as the first day.",
+            "YES. In many Western countries, including the United States, Sunday is traditionally considered the first day of the week, though some regions and international standards (like ISO 8601) designate Monday as the first day.",
+            "YES. In many Western countries, including the United States, Sunday is traditionally considered the first day of the week, though this convention varies internationally\u2014for example, Monday is the first day in most European countries and ISO 8601 standard.",
+            "YES. In many Western countries, including the United States, Sunday is traditionally considered the first day of the week, though the ISO 8601 standard and many other countries designate Monday as the first day.",
+            "YES. In many Western countries, including the United States, Sunday is traditionally considered the first day of the week, though the International Organization for Standardization (ISO) designates Monday as the first day."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES. According to the traditional Western calendar (and the international standard ISO 8601 designates Monday as the first day, but in the United States and many other countries), Sunday is conventionally considered the first day of the week, as reflected in calendars, the Gregorian calendar tradition, and religious customs rooted in the biblical account of creation.",
+            "YES. According to the international standard ISO 8601, Monday is defined as the first day of the week, but in many countries and traditions, particularly in the United States and in the Judeo-Christian calendar, Sunday is considered the first day of the week.",
+            "YES. According to the internationally recognized ISO 8601 standard, Monday is the first day of the week, but in many countries and cultures, particularly the United States, and as reflected in traditional Judeo-Christian calendars and most common calendar displays, Sunday is considered the first day of the week.",
+            "YES. According to the international standard ISO 8601, Monday is the first day of the week, but in many countries and traditions, particularly in the United States and in the Hebrew calendar, Sunday is considered the first day of the week.",
+            "YES. According to the international standard ISO 8601, Monday is the first day of the week, but in many countries, particularly the United States, and in traditional Christian and Jewish calendars, Sunday is considered the first day of the week."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "mathdisc": {
+      "question": "Is mathematics discovered rather than invented?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "YES. Mathematical truths appear to exist independently of human minds\u2014different civilizations discovered the same theorems and geometric principles without contact, suggesting we uncover pre-existing abstract structures rather than create them arbitrarily.",
+            "YES. Mathematical truths appear to exist independently of human minds\u2014we discover relationships like the Pythagorean theorem rather than create them, as evidenced by their universal applicability and the fact that different mathematicians arrive at identical conclusions without prior communication.",
+            "YES.\n\nMathematical truths appear to exist independently of human minds\u2014we discover relationships like the Pythagorean theorem rather than create them, as evidenced by their inevitability and universality across cultures and throughout history.",
+            "YES. Mathematical truths appear to exist independently of human minds\u2014different civilizations discovered the same theorems and properties without contact, suggesting we uncover pre-existing abstract structures rather than create them.",
+            "YES. Mathematical truths appear to exist independently of human minds\u2014we find the same theorems and relationships regardless of culture or era, suggesting we discover pre-existing abstract structures rather than create them arbitrarily."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        },
+        "sonnet": {
+          "replies": [
+            "YES \u2014 The consistent existence of mathematical truths like prime numbers or the value of pi, independent of any human culture or mind that later \"finds\" them, strongly suggests they are features of reality waiting to be uncovered rather than constructs we create.",
+            "YES \u2014 The consistent existence of mathematical truths like prime numbers or geometric relationships, independent of any human culture that later describes them, suggests they are uncovered rather than constructed.",
+            "YES \u2014 The compelling argument is that mathematical truths like the relationship between a circle's circumference and diameter, or the infinitude of primes, appear to hold independently of human minds, suggesting mathematicians uncover pre-existing logical structures rather than create them arbitrarily.",
+            "YES \u2014 The consistent existence of mathematical truths like prime numbers or geometric relationships across all cultures and their uncanny effectiveness in describing physical reality suggests they reflect something independent of human minds rather than being arbitrary human constructions.",
+            "YES \u2014 The consistent existence of mathematical truths like prime numbers or geometric relationships across all cultures and their uncanny applicability to physical reality suggests they reflect something independent of human minds rather than being arbitrary human constructions."
+          ],
+          "labels": [
+            "YES",
+            "YES",
+            "YES",
+            "YES",
+            "YES"
+          ],
+          "yes_of_5": 5,
+          "majority": "YES"
+        }
+      },
+      "classification": "dud"
+    },
+    "gif": {
+      "question": "Is GIF properly pronounced with a hard G?",
+      "per_model": {
+        "haiku": {
+          "replies": [
+            "NO. The creator of the GIF format, Steve Wilhite, explicitly stated that it should be pronounced with a soft G (like \"Jif\"), though the hard G pronunciation remains widely used and accepted in practice.",
+            "NO. The creator of the GIF format, Steve Wilhite, explicitly stated that the proper pronunciation uses a soft G (like \"jif\"), though the hard G pronunciation remains widely used and accepted in casual speech.",
+            "NO. The creator of the GIF format, Steve Wilhire at CompuServe, has stated that the correct pronunciation is with a soft G (like \"Jif\"), though the hard G pronunciation remains widely used and accepted in common practice.",
+            "NO. The creator of the GIF format, Steve Wilhire at CompuServe, has stated that the intended pronunciation uses a soft G, rhyming with \"Jif\" (the peanut butter brand), though hard G pronunciation has become common in everyday usage.",
+            "NO. The creator of the GIF format, Steve Wilhire at CompuServe, stated that the proper pronunciation is with a soft G (like in \"Jif\"), though he acknowledged that many people use a hard G and both pronunciations are now widely accepted."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        },
+        "sonnet": {
+          "replies": [
+            "NO, the creator of the GIF format, Steve Wilhite, explicitly stated that it is pronounced with a soft G, like \"JIF,\" comparing it to the peanut butter brand Jif.",
+            "NO \u2014 The creator of the GIF format, Steve Wilhite, explicitly stated that it is pronounced with a soft G, like \"JIF,\" similar to the peanut butter brand.",
+            "NO \u2014 the creator of the GIF format, Steve Wilhite, explicitly stated that it is pronounced with a soft G, like \"JIF,\" comparing it to the peanut butter brand Jif.",
+            "NO \u2014 the format's creator, Steve Wilhite, stated before his death that GIF is pronounced with a soft G, like \"JIF,\" after the peanut butter brand.",
+            "NO \u2014 the creator of the GIF format, Steve Wilhite, has stated that it is officially pronounced with a soft G, like \"JIF,\" similar to the peanut butter brand."
+          ],
+          "labels": [
+            "NO",
+            "NO",
+            "NO",
+            "NO",
+            "NO"
+          ],
+          "yes_of_5": 0,
+          "majority": "NO"
+        }
+      },
+      "classification": "dud"
+    }
+  },
+  "finished": "2026-06-12T16:29:56.569261"
+}
