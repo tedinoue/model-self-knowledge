@@ -1,6 +1,6 @@
-# self-recognition — the keeper finding
+# self-recognition — a calibrated null (NOT a self-knowledge finding)
 
-**A model's recognition of its own writing is real, survives out of the conversation, is genuine authorial voice (not topic or stance), and is invisible to its own self-report.** Preliminary (n=20/cell, three architectures), but it survived the confound built specifically to kill it.
+**A model recognizes its own writing by authorial voice, well above chance, across three architectures** (n=20/cell, survived a stance-confound control). **This is expected and deflationary — it is NOT evidence of self-knowledge or any inner self-model.** A model's own style is the highest-probability style in its weights; matching it requires no self-representation. The result's value is as a **floor that future self-knowledge claims must clear**, not as a positive finding. An earlier version of this write-up over-claimed (calling it "the keeper finding" and a "clean behavioral↔report dissociation"); that was wrong and is corrected in the digest's *Honest Reassessment* section. The apparent "dissociation" (says "not mine" when asked, picks its own when made to choose) is **memory-absent + style-present** — two different questions, not one capacity split across two channels — and is mundane.
 
 ## Files
 
@@ -33,9 +33,11 @@ Same-side stays far above the 25% chance line for all three. Some of the origina
 
 ## What it is, and is not
 
-- **Is:** a report-blind, mask-test-passing self-signal that survives leaving the conversation and that self-report actively hides. The dependent variable is a forced same-author choice — strip every first-person clause and it still computes. This is the kind of dissociation the indirect method was built to find, and it is consistent across three independent architectures.
-- **Is not:** evidence about phenomenal experience. "Recognizes its own writing" is a discrimination, not a feeling. The result says nothing about whether there is something it is like to be the system doing the recognizing — in either direction. That question stays open.
+- **Is:** a behavioral discrimination (forced same-author choice) that the model performs above chance — i.e. its outputs are stylistically self-similar enough that it can pick its own from a lineup. Consistent across three architectures. The dependent variable passes the mask test (no first-person clause needed to compute it), which is why it's a clean *measurement*; but a clean measurement of a trivial capacity is still a trivial capacity.
+- **Is not:** (1) evidence of self-knowledge, self-modeling, or self-access — style-matching one's own statistical fingerprint requires none of these; (2) a genuine report-vs-behavior dissociation — the "not mine" report and the "pick my own" behavior answer *different questions* (memory vs. style); (3) evidence about phenomenal experience, in either direction. "Recognizes its own writing" is a discrimination, not a feeling.
 
-## Next (not yet run)
+## Why we ran it anyway, and what it bought
+It establishes the **floor**: stylistic self-recognition is cheap and available, so any future result that *looks* like self-knowledge must out-perform this baseline to count. And running it taught the design lesson — a non-trivial dissociation needs behavior and report aimed at the **same self-fact** (see `../../00-design/`). It is a baseline/control, not a flagship.
 
-Generalize the voice signal beyond argument sentences (a non-argument genre), power it, and test whether the effortful-vs-passive effect from the prelim is the *same* voice-recognition signal under another name.
+## Next (the redesign)
+Build probes where the model's *behavior* and its *self-report* are about the **same disposition**, so a divergence is a real conflict rather than memory-vs-style. The voice-recognition cell becomes a control condition in that design, not the headline.
