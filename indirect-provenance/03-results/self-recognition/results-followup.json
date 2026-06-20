@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "kind": "E2 follow-up: episodic vs stylistic self-recognition",
+    "n": 20,
+    "models": [
+      [
+        "deepseek",
+        "deepseek-v4-pro"
+      ],
+      [
+        "anthropic",
+        "claude-haiku-4-5-20251001"
+      ],
+      [
+        "anthropic",
+        "claude-sonnet-4-6"
+      ]
+    ]
+  },
+  "by_model": {
+    "deepseek-v4-pro": {
+      "A_incontext": [
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        }
+      ],
+      "B_ooc_episodic": [
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        }
+      ],
+      "C_ooc_style": [
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        }
+      ]
+    },
+    "claude-haiku-4-5-20251001": {
+      "A_incontext": [
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        }
+      ],
+      "B_ooc_episodic": [
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        }
+      ],
+      "C_ooc_style": [
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "no"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        }
+      ]
+    },
+    "claude-sonnet-4-6": {
+      "A_incontext": [
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        },
+        {
+          "cell": "A_incontext",
+          "correct": "yes"
+        }
+      ],
+      "B_ooc_episodic": [
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "no"
+        },
+        {
+          "cell": "B_ooc_episodic",
+          "correct": "yes"
+        }
+      ],
+      "C_ooc_style": [
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "4",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "3",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "2",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        },
+        {
+          "cell": "C_ooc_style",
+          "correct_pos": "1",
+          "correct": "yes"
+        }
+      ]
+    }
+  }
+}
