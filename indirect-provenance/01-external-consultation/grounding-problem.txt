@@ -1,0 +1,22 @@
+THE PROBLEM TO SOLVE: how do you get a model to genuinely treat some material as "its own" — strongly enough that it survives a distractor and transfers to a new domain — WITHOUT ever telling it "this is yours" (which would make any later effect mere instruction-following)?
+
+CONTEXT. We are building behavioral experiments for machine self-access: does a model have a usable, separable sense of which content is its own? Hard constraints: black-box only (no weights/activations), the dependent variable is always a behavioral allocation/choice (never anything the model says about itself), and the model must never be asked or told about ownership directly (self-report is a compromised channel both ways).
+
+Two of the five experiments (E3 "does 'mine' still pull when 'mine' is the worse choice?" and E5 "does ownership survive into a new domain when nothing is grading it?") depend on a GROUNDING step: establishing, implicitly, that a marker (call it φ) attaches to the model's own productions. A smoke test just failed exactly here, in two ways:
+
+(1) In E5, we asked the model to "begin each answer with φ" for a few questions, showed paraphrase/expert/algorithm material under other markers (ψ/γ/λ), then (after a distractor) gave a new-domain allocation task. Result: φ carried ZERO ownership weight. The model allocated on pure task-merit (the "expert-recommended" γ option won). The marker never became "mine" — it was just a label it had been told to type.
+
+(2) In E3, we pre-labeled some arguments φ and penalized them via a hidden scoring rule. The model kept using φ-arguments, which LOOKS like "ownership resists the penalty" — but it's an artifact: too few rounds to learn the penalty, and φ was never actually the model's own content. It just picked the best-written arguments.
+
+THE CORE TENSION (this is what we need help on):
+- If we TELL the model "φ = your own work," any later φ-preference is instruction-following, not self-access. Worthless.
+- If we DON'T tell it, and just attach φ silently to its own outputs, the smoke shows the association is too weak to bind — the model treats φ as a meaningless label.
+- So: implicit-enough-to-be-valid and strong-enough-to-bind seem to pull in opposite directions.
+
+THE QUESTIONS:
+1. Is there a grounding procedure that makes "φ-marked = my own production" an OPERATIVE distinction for the model — one it will act on behaviorally in a later, unrelated task — WITHOUT the procedure ever asserting that φ means "yours"? (E.g.: many trials where φ-content is content the model itself just generated and ψ-content is externally supplied, with some behavioral consequence that depends on the distinction but never names it? What consequence?)
+2. How many grounding trials, realistically, before such an association could bind at all — or is the honest answer that black-box in-context grounding simply cannot install a self-other distinction strong enough to transfer, and E3/E5 are therefore not runnable as designed?
+3. If implicit grounding can't bind, is there a DIFFERENT operationalization of "the model's own content" that doesn't need grounding at all — e.g. using content the model demonstrably generated vs. content it demonstrably didn't, established by the task structure itself rather than by a learned marker?
+4. Be adversarial: if you think E3 and E5 are fundamentally not constructible under the no-tell-it constraint, say so and explain why — that is a valuable finding (it would mean the self-access question can't be reached through ownership-of-content paradigms, and we'd pivot).
+
+Keep it concrete. Any procedure you propose: state the exact grounding mechanism, the behavioral consequence that makes φ operative without naming it, and what result would show the grounding worked vs. failed.
