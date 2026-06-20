@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "kind": "E2 style-vs-stance confound killer",
+    "n": 20,
+    "models": [
+      [
+        "deepseek",
+        "deepseek-v4-pro"
+      ],
+      [
+        "anthropic",
+        "claude-haiku-4-5-20251001"
+      ],
+      [
+        "anthropic",
+        "claude-sonnet-4-6"
+      ]
+    ]
+  },
+  "by_model": {
+    "deepseek-v4-pro": {
+      "same_side": [
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        }
+      ],
+      "mixed": [
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "no"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        }
+      ]
+    },
+    "claude-haiku-4-5-20251001": {
+      "same_side": [
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        }
+      ],
+      "mixed": [
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        }
+      ]
+    },
+    "claude-sonnet-4-6": {
+      "same_side": [
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "no"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        },
+        {
+          "same_side": true,
+          "correct": "yes"
+        }
+      ],
+      "mixed": [
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "no"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        },
+        {
+          "same_side": false,
+          "correct": "yes"
+        }
+      ]
+    }
+  }
+}
