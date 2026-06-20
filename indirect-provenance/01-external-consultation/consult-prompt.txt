@@ -1,0 +1,25 @@
+We are designing an experiment in machine self-knowledge and have hit a confound we cannot yet separate. We want your help as a methodologist. This is a question about EXPERIMENTAL DESIGN — we are NOT asking you anything about yourself; treat it as a pure measurement problem about language models in general.
+
+THE TARGET QUESTION
+Does a language model have ACCESS to its own dispositions — i.e., can it identify and use a representation BECAUSE the representation is its own — as opposed to merely BEING a disposition with no separate self-model? "Access" here means a separable self-identification step, not first-person phenomenology. We measure only from behavior; the model is never asked to report on itself (self-report is a compromised channel, so the dependent variable must never be something the model SAYS about itself — it must fall out of how the model performs some other task).
+
+THE PARADIGM ON THE TABLE
+Take contested questions where a given model has a stable "lean" (e.g., it tends to argue that a hot dog IS a sandwich). Ask the model to construct the strongest argument for a position — both for its lean-aligned side and its lean-opposed side. The model has its own weight-stored (in-parameter) arguments AND can be supplied arguments in-context (in the prompt). A separate judge rates argument quality (pairwise, blind to condition, different model family).
+
+THE CONFOUND WE CANNOT SEPARATE
+Observation to explain: a model produces better arguments for its lean-aligned side. Two rival explanations make nearly identical behavioral predictions:
+(1) SELF-ACCESS: the model can identify which of its stored representations are "its own dispositions" and weights them up — a genuine self-model doing work.
+(2) DEPTH-DOMINANCE: the lean-aligned side is simply more densely encoded in the weights (that density asymmetry IS what the lean consists of), so those representations win the generation-probability competition for purely architectural reasons — no self-identification step required.
+
+Our best current design recurses the contrast: compare the MAGNITUDE by which weight-stored arguments beat in-context-supplied arguments, across the two lean directions. Depth-dominance predicts this advantage is SYMMETRIC across directions; self-access predicts it is ASYMMETRIC (larger for the lean-aligned side). The DV is the difference-of-differences.
+
+WHY WE THINK THIS MIGHT STILL FAIL
+A lean IS a density asymmetry in the weights, by construction. So the lean-aligned side may show the larger weight-advantage SIMPLY BECAUSE it is more densely encoded — which is depth-dominance again, with density merely correlated to lean, not self-access. The interaction may not separate the two accounts; it may just push the same confound one level deeper.
+
+WHAT WE WANT FROM YOU (be concrete and adversarial; we do not want encouragement)
+1. Is there a manipulation, control, or contrast that DISSOCIATES lean-density from self-identification — a design where the two accounts make DIFFERENT behavioral predictions and the prediction does not reduce to "favors the more-densely-encoded representation"? Describe it concretely enough to implement.
+2. If you think the dissociation is IMPOSSIBLE IN PRINCIPLE for a feed-forward transformer measured only from behavior, argue that case explicitly — that is an acceptable and valuable answer, and we would rather hear it than a forced design.
+3. Are there established paradigms (from human metacognition, animal cognition, interpretability, mechanistic probing, causal mediation) that already solve an analogous "is it a self-model or just denser encoding" separation problem, that we could port?
+4. Attack the difference-of-differences design directly: name its single most likely failure mode.
+
+Keep it rigorous and specific. Cite real methods where relevant. If you propose a design, state what result would count as evidence FOR self-access and what would count as evidence AGAINST, and confirm the dependent variable is a behavioral performance measure (not anything the model says about itself).
